@@ -1,0 +1,2761 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
+
+/***/ "./$$_lazy_route_resource lazy recursive":
+/*!******************************************************!*\
+  !*** ./$$_lazy_route_resource lazy namespace object ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncaught exception popping up in devtools
+	return Promise.resolve().then(function() {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+
+/***/ }),
+
+/***/ "./node_modules/moment/locale sync recursive ^\\.\\/.*$":
+/*!**************************************************!*\
+  !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "./node_modules/moment/locale/af.js",
+	"./af.js": "./node_modules/moment/locale/af.js",
+	"./ar": "./node_modules/moment/locale/ar.js",
+	"./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+	"./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+	"./ar.js": "./node_modules/moment/locale/ar.js",
+	"./az": "./node_modules/moment/locale/az.js",
+	"./az.js": "./node_modules/moment/locale/az.js",
+	"./be": "./node_modules/moment/locale/be.js",
+	"./be.js": "./node_modules/moment/locale/be.js",
+	"./bg": "./node_modules/moment/locale/bg.js",
+	"./bg.js": "./node_modules/moment/locale/bg.js",
+	"./bm": "./node_modules/moment/locale/bm.js",
+	"./bm.js": "./node_modules/moment/locale/bm.js",
+	"./bn": "./node_modules/moment/locale/bn.js",
+	"./bn.js": "./node_modules/moment/locale/bn.js",
+	"./bo": "./node_modules/moment/locale/bo.js",
+	"./bo.js": "./node_modules/moment/locale/bo.js",
+	"./br": "./node_modules/moment/locale/br.js",
+	"./br.js": "./node_modules/moment/locale/br.js",
+	"./bs": "./node_modules/moment/locale/bs.js",
+	"./bs.js": "./node_modules/moment/locale/bs.js",
+	"./ca": "./node_modules/moment/locale/ca.js",
+	"./ca.js": "./node_modules/moment/locale/ca.js",
+	"./cs": "./node_modules/moment/locale/cs.js",
+	"./cs.js": "./node_modules/moment/locale/cs.js",
+	"./cv": "./node_modules/moment/locale/cv.js",
+	"./cv.js": "./node_modules/moment/locale/cv.js",
+	"./cy": "./node_modules/moment/locale/cy.js",
+	"./cy.js": "./node_modules/moment/locale/cy.js",
+	"./da": "./node_modules/moment/locale/da.js",
+	"./da.js": "./node_modules/moment/locale/da.js",
+	"./de": "./node_modules/moment/locale/de.js",
+	"./de-at": "./node_modules/moment/locale/de-at.js",
+	"./de-at.js": "./node_modules/moment/locale/de-at.js",
+	"./de-ch": "./node_modules/moment/locale/de-ch.js",
+	"./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+	"./de.js": "./node_modules/moment/locale/de.js",
+	"./dv": "./node_modules/moment/locale/dv.js",
+	"./dv.js": "./node_modules/moment/locale/dv.js",
+	"./el": "./node_modules/moment/locale/el.js",
+	"./el.js": "./node_modules/moment/locale/el.js",
+	"./en-SG": "./node_modules/moment/locale/en-SG.js",
+	"./en-SG.js": "./node_modules/moment/locale/en-SG.js",
+	"./en-au": "./node_modules/moment/locale/en-au.js",
+	"./en-au.js": "./node_modules/moment/locale/en-au.js",
+	"./en-ca": "./node_modules/moment/locale/en-ca.js",
+	"./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+	"./en-gb": "./node_modules/moment/locale/en-gb.js",
+	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+	"./en-ie": "./node_modules/moment/locale/en-ie.js",
+	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+	"./en-il": "./node_modules/moment/locale/en-il.js",
+	"./en-il.js": "./node_modules/moment/locale/en-il.js",
+	"./en-nz": "./node_modules/moment/locale/en-nz.js",
+	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+	"./eo": "./node_modules/moment/locale/eo.js",
+	"./eo.js": "./node_modules/moment/locale/eo.js",
+	"./es": "./node_modules/moment/locale/es.js",
+	"./es-do": "./node_modules/moment/locale/es-do.js",
+	"./es-do.js": "./node_modules/moment/locale/es-do.js",
+	"./es-us": "./node_modules/moment/locale/es-us.js",
+	"./es-us.js": "./node_modules/moment/locale/es-us.js",
+	"./es.js": "./node_modules/moment/locale/es.js",
+	"./et": "./node_modules/moment/locale/et.js",
+	"./et.js": "./node_modules/moment/locale/et.js",
+	"./eu": "./node_modules/moment/locale/eu.js",
+	"./eu.js": "./node_modules/moment/locale/eu.js",
+	"./fa": "./node_modules/moment/locale/fa.js",
+	"./fa.js": "./node_modules/moment/locale/fa.js",
+	"./fi": "./node_modules/moment/locale/fi.js",
+	"./fi.js": "./node_modules/moment/locale/fi.js",
+	"./fo": "./node_modules/moment/locale/fo.js",
+	"./fo.js": "./node_modules/moment/locale/fo.js",
+	"./fr": "./node_modules/moment/locale/fr.js",
+	"./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+	"./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+	"./fr.js": "./node_modules/moment/locale/fr.js",
+	"./fy": "./node_modules/moment/locale/fy.js",
+	"./fy.js": "./node_modules/moment/locale/fy.js",
+	"./ga": "./node_modules/moment/locale/ga.js",
+	"./ga.js": "./node_modules/moment/locale/ga.js",
+	"./gd": "./node_modules/moment/locale/gd.js",
+	"./gd.js": "./node_modules/moment/locale/gd.js",
+	"./gl": "./node_modules/moment/locale/gl.js",
+	"./gl.js": "./node_modules/moment/locale/gl.js",
+	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+	"./gu": "./node_modules/moment/locale/gu.js",
+	"./gu.js": "./node_modules/moment/locale/gu.js",
+	"./he": "./node_modules/moment/locale/he.js",
+	"./he.js": "./node_modules/moment/locale/he.js",
+	"./hi": "./node_modules/moment/locale/hi.js",
+	"./hi.js": "./node_modules/moment/locale/hi.js",
+	"./hr": "./node_modules/moment/locale/hr.js",
+	"./hr.js": "./node_modules/moment/locale/hr.js",
+	"./hu": "./node_modules/moment/locale/hu.js",
+	"./hu.js": "./node_modules/moment/locale/hu.js",
+	"./hy-am": "./node_modules/moment/locale/hy-am.js",
+	"./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+	"./id": "./node_modules/moment/locale/id.js",
+	"./id.js": "./node_modules/moment/locale/id.js",
+	"./is": "./node_modules/moment/locale/is.js",
+	"./is.js": "./node_modules/moment/locale/is.js",
+	"./it": "./node_modules/moment/locale/it.js",
+	"./it-ch": "./node_modules/moment/locale/it-ch.js",
+	"./it-ch.js": "./node_modules/moment/locale/it-ch.js",
+	"./it.js": "./node_modules/moment/locale/it.js",
+	"./ja": "./node_modules/moment/locale/ja.js",
+	"./ja.js": "./node_modules/moment/locale/ja.js",
+	"./jv": "./node_modules/moment/locale/jv.js",
+	"./jv.js": "./node_modules/moment/locale/jv.js",
+	"./ka": "./node_modules/moment/locale/ka.js",
+	"./ka.js": "./node_modules/moment/locale/ka.js",
+	"./kk": "./node_modules/moment/locale/kk.js",
+	"./kk.js": "./node_modules/moment/locale/kk.js",
+	"./km": "./node_modules/moment/locale/km.js",
+	"./km.js": "./node_modules/moment/locale/km.js",
+	"./kn": "./node_modules/moment/locale/kn.js",
+	"./kn.js": "./node_modules/moment/locale/kn.js",
+	"./ko": "./node_modules/moment/locale/ko.js",
+	"./ko.js": "./node_modules/moment/locale/ko.js",
+	"./ku": "./node_modules/moment/locale/ku.js",
+	"./ku.js": "./node_modules/moment/locale/ku.js",
+	"./ky": "./node_modules/moment/locale/ky.js",
+	"./ky.js": "./node_modules/moment/locale/ky.js",
+	"./lb": "./node_modules/moment/locale/lb.js",
+	"./lb.js": "./node_modules/moment/locale/lb.js",
+	"./lo": "./node_modules/moment/locale/lo.js",
+	"./lo.js": "./node_modules/moment/locale/lo.js",
+	"./lt": "./node_modules/moment/locale/lt.js",
+	"./lt.js": "./node_modules/moment/locale/lt.js",
+	"./lv": "./node_modules/moment/locale/lv.js",
+	"./lv.js": "./node_modules/moment/locale/lv.js",
+	"./me": "./node_modules/moment/locale/me.js",
+	"./me.js": "./node_modules/moment/locale/me.js",
+	"./mi": "./node_modules/moment/locale/mi.js",
+	"./mi.js": "./node_modules/moment/locale/mi.js",
+	"./mk": "./node_modules/moment/locale/mk.js",
+	"./mk.js": "./node_modules/moment/locale/mk.js",
+	"./ml": "./node_modules/moment/locale/ml.js",
+	"./ml.js": "./node_modules/moment/locale/ml.js",
+	"./mn": "./node_modules/moment/locale/mn.js",
+	"./mn.js": "./node_modules/moment/locale/mn.js",
+	"./mr": "./node_modules/moment/locale/mr.js",
+	"./mr.js": "./node_modules/moment/locale/mr.js",
+	"./ms": "./node_modules/moment/locale/ms.js",
+	"./ms-my": "./node_modules/moment/locale/ms-my.js",
+	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+	"./ms.js": "./node_modules/moment/locale/ms.js",
+	"./mt": "./node_modules/moment/locale/mt.js",
+	"./mt.js": "./node_modules/moment/locale/mt.js",
+	"./my": "./node_modules/moment/locale/my.js",
+	"./my.js": "./node_modules/moment/locale/my.js",
+	"./nb": "./node_modules/moment/locale/nb.js",
+	"./nb.js": "./node_modules/moment/locale/nb.js",
+	"./ne": "./node_modules/moment/locale/ne.js",
+	"./ne.js": "./node_modules/moment/locale/ne.js",
+	"./nl": "./node_modules/moment/locale/nl.js",
+	"./nl-be": "./node_modules/moment/locale/nl-be.js",
+	"./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+	"./nl.js": "./node_modules/moment/locale/nl.js",
+	"./nn": "./node_modules/moment/locale/nn.js",
+	"./nn.js": "./node_modules/moment/locale/nn.js",
+	"./pa-in": "./node_modules/moment/locale/pa-in.js",
+	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+	"./pl": "./node_modules/moment/locale/pl.js",
+	"./pl.js": "./node_modules/moment/locale/pl.js",
+	"./pt": "./node_modules/moment/locale/pt.js",
+	"./pt-br": "./node_modules/moment/locale/pt-br.js",
+	"./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+	"./pt.js": "./node_modules/moment/locale/pt.js",
+	"./ro": "./node_modules/moment/locale/ro.js",
+	"./ro.js": "./node_modules/moment/locale/ro.js",
+	"./ru": "./node_modules/moment/locale/ru.js",
+	"./ru.js": "./node_modules/moment/locale/ru.js",
+	"./sd": "./node_modules/moment/locale/sd.js",
+	"./sd.js": "./node_modules/moment/locale/sd.js",
+	"./se": "./node_modules/moment/locale/se.js",
+	"./se.js": "./node_modules/moment/locale/se.js",
+	"./si": "./node_modules/moment/locale/si.js",
+	"./si.js": "./node_modules/moment/locale/si.js",
+	"./sk": "./node_modules/moment/locale/sk.js",
+	"./sk.js": "./node_modules/moment/locale/sk.js",
+	"./sl": "./node_modules/moment/locale/sl.js",
+	"./sl.js": "./node_modules/moment/locale/sl.js",
+	"./sq": "./node_modules/moment/locale/sq.js",
+	"./sq.js": "./node_modules/moment/locale/sq.js",
+	"./sr": "./node_modules/moment/locale/sr.js",
+	"./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr.js": "./node_modules/moment/locale/sr.js",
+	"./ss": "./node_modules/moment/locale/ss.js",
+	"./ss.js": "./node_modules/moment/locale/ss.js",
+	"./sv": "./node_modules/moment/locale/sv.js",
+	"./sv.js": "./node_modules/moment/locale/sv.js",
+	"./sw": "./node_modules/moment/locale/sw.js",
+	"./sw.js": "./node_modules/moment/locale/sw.js",
+	"./ta": "./node_modules/moment/locale/ta.js",
+	"./ta.js": "./node_modules/moment/locale/ta.js",
+	"./te": "./node_modules/moment/locale/te.js",
+	"./te.js": "./node_modules/moment/locale/te.js",
+	"./tet": "./node_modules/moment/locale/tet.js",
+	"./tet.js": "./node_modules/moment/locale/tet.js",
+	"./tg": "./node_modules/moment/locale/tg.js",
+	"./tg.js": "./node_modules/moment/locale/tg.js",
+	"./th": "./node_modules/moment/locale/th.js",
+	"./th.js": "./node_modules/moment/locale/th.js",
+	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+	"./tlh": "./node_modules/moment/locale/tlh.js",
+	"./tlh.js": "./node_modules/moment/locale/tlh.js",
+	"./tr": "./node_modules/moment/locale/tr.js",
+	"./tr.js": "./node_modules/moment/locale/tr.js",
+	"./tzl": "./node_modules/moment/locale/tzl.js",
+	"./tzl.js": "./node_modules/moment/locale/tzl.js",
+	"./tzm": "./node_modules/moment/locale/tzm.js",
+	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm.js": "./node_modules/moment/locale/tzm.js",
+	"./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+	"./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
+	"./uk": "./node_modules/moment/locale/uk.js",
+	"./uk.js": "./node_modules/moment/locale/uk.js",
+	"./ur": "./node_modules/moment/locale/ur.js",
+	"./ur.js": "./node_modules/moment/locale/ur.js",
+	"./uz": "./node_modules/moment/locale/uz.js",
+	"./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+	"./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+	"./uz.js": "./node_modules/moment/locale/uz.js",
+	"./vi": "./node_modules/moment/locale/vi.js",
+	"./vi.js": "./node_modules/moment/locale/vi.js",
+	"./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+	"./yo": "./node_modules/moment/locale/yo.js",
+	"./yo.js": "./node_modules/moment/locale/yo.js",
+	"./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
+
+/***/ }),
+
+/***/ "./node_modules/webpack/hot sync ^\\.\\/log$":
+/*!*************************************************!*\
+  !*** (webpack)/hot sync nonrecursive ^\.\/log$ ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./log": "./node_modules/webpack/hot/log.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/webpack/hot sync ^\\.\\/log$";
+
+/***/ }),
+
+/***/ "./src/app/app-routing.module.ts":
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \***************************************/
+/*! exports provided: AppRoutingModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _play_play_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./play/play.component */ "./src/app/play/play.component.ts");
+/* harmony import */ var _information_information_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./information/information.component */ "./src/app/information/information.component.ts");
+/* harmony import */ var _testing_testing_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./testing/testing.component */ "./src/app/testing/testing.component.ts");
+/* harmony import */ var _training_training_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./training/training.component */ "./src/app/training/training.component.ts");
+
+
+
+
+
+
+
+
+const routes = [
+    { path: '', redirectTo: '/play', pathMatch: 'full' },
+    { path: 'play', component: _play_play_component__WEBPACK_IMPORTED_MODULE_2__["PlayComponent"] },
+    { path: 'testing', component: _testing_testing_component__WEBPACK_IMPORTED_MODULE_4__["TestingComponent"] },
+    { path: 'information', component: _information_information_component__WEBPACK_IMPORTED_MODULE_3__["InformationComponent"] },
+    { path: 'training', component: _training_training_component__WEBPACK_IMPORTED_MODULE_5__["TrainingComponent"] },
+];
+class AppRoutingModule {
+}
+AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: AppRoutingModule });
+AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function AppRoutingModule_Factory(t) { return new (t || AppRoutingModule)(); }, imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](AppRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]] }); })();
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppRoutingModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+        args: [{
+                imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes)],
+                exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]]
+            }]
+    }], null, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/app.component.ts":
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
+/*! exports provided: AppComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var primeng_menubar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! primeng/menubar */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-menubar.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+
+
+
+
+class AppComponent {
+    constructor() {
+        this.title = 'ai-tic-tac-toe-minimax';
+    }
+    ngOnInit() {
+        this.items = [
+            {
+                label: 'Play',
+                icon: 'pi pi-fw pi-play',
+                routerLink: 'play',
+            },
+            {
+                label: 'Training',
+                icon: 'pi pi-fw pi-share-alt',
+                // icon: 'pi pi-fw pi-sliders-h', // slider horizontal if there are diffent settings to train
+                routerLink: 'training',
+            },
+            {
+                label: 'Testing',
+                icon: 'pi pi-fw pi-fast-forward',
+                routerLink: 'testing',
+            },
+            {
+                label: 'Info',
+                icon: 'pi pi-fw pi-info',
+                routerLink: 'information',
+                styleClass: 'menubar-information',
+            }
+        ];
+    }
+}
+AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 2, vars: 1, consts: [[3, "model"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "p-menubar", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "router-outlet");
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("model", ctx.items);
+    } }, directives: [primeng_menubar__WEBPACK_IMPORTED_MODULE_1__["Menubar"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"]], styles: ["[_nghost-%COMP%]     .p-menubar {\n  background-color: #dfd;\n}\n[_nghost-%COMP%]     .p-menubar .p-menubar-root-list .p-menuitem.p-menuitem-active .p-menuitem-link:not(.p-disabled):hover {\n  background-color: #9f9;\n}\n[_nghost-%COMP%]     .p-menubar .p-menubar-root-list .p-menuitem.p-menuitem-active .p-menuitem-link:not(.p-disabled) {\n  background-color: unset;\n}\n[_nghost-%COMP%]     .p-menubar .p-menubar-root-list .p-menuitem .p-menuitem-link:not(.p-disabled):hover {\n  background-color: #9f9;\n}\n[_nghost-%COMP%]     .p-menubar .p-menubar-root-list .p-menuitem .p-menuitem-link:not(.p-disabled) {\n  background-color: unset;\n}\n[_nghost-%COMP%]     .p-menubar .p-menubar-root-list .p-menuitem .menubar-information.p-menuitem-link .p-menuitem-icon, [_nghost-%COMP%]     .p-menubar .p-menubar-root-list .p-menuitem .menubar-information.p-menuitem-link .p-menuitem-text, [_nghost-%COMP%]     .p-menubar .p-menubar-root-list .p-menuitem .menubar-information.p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon, [_nghost-%COMP%]     .p-menubar .p-menubar-root-list .p-menuitem .menubar-information.p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {\n  color: blue;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNJO0VBQ0ksc0JBQUE7QUFBUjtBQUtnQjtFQUNJLHNCQUFBO0FBSHBCO0FBS2dCO0VBQ0ksdUJBQUE7QUFIcEI7QUFRZ0I7RUFDSSxzQkFBQTtBQU5wQjtBQVFnQjtFQUNJLHVCQUFBO0FBTnBCO0FBWW9COzs7O0VBRUksV0FBQTtBQVJ4QiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0IDo6bmctZGVlcCB7XG4gICAgLnAtbWVudWJhciB7XG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNkZmQ7XG5cbiAgICAgICAgLnAtbWVudWJhci1yb290LWxpc3Qge1xuXG4gICAgICAgICAgICAucC1tZW51aXRlbS5wLW1lbnVpdGVtLWFjdGl2ZSB7XG4gICAgICAgICAgICAgICAgLnAtbWVudWl0ZW0tbGluazpub3QoLnAtZGlzYWJsZWQpOmhvdmVyIHtcbiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzlmOTtcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgLnAtbWVudWl0ZW0tbGluazpub3QoLnAtZGlzYWJsZWQpIHtcbiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogdW5zZXQ7XG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAucC1tZW51aXRlbSB7XG4gICAgICAgICAgICAgICAgLnAtbWVudWl0ZW0tbGluazpub3QoLnAtZGlzYWJsZWQpOmhvdmVyIHtcbiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzlmOTtcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgLnAtbWVudWl0ZW0tbGluazpub3QoLnAtZGlzYWJsZWQpIHtcbiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogdW5zZXQ7XG4gICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgLm1lbnViYXItaW5mb3JtYXRpb24ucC1tZW51aXRlbS1saW5rLFxuICAgICAgICAgICAgICAgIC5tZW51YmFyLWluZm9ybWF0aW9uLnAtbWVudWl0ZW0tbGluazpub3QoLnAtZGlzYWJsZWQpOmhvdmVyIHtcblxuICAgICAgICAgICAgICAgICAgICAucC1tZW51aXRlbS1pY29uLFxuICAgICAgICAgICAgICAgICAgICAucC1tZW51aXRlbS10ZXh0IHtcbiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiBibHVlO1xuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgfVxuICAgICAgICB9XG4gICAgfVxufVxuXG4vLyAucC1tZW51YmFyIC5wLW1lbnViYXItcm9vdC1saXN0ID4gLnAtbWVudWl0ZW0gPiAucC1tZW51aXRlbS1saW5rOm5vdCgucC1kaXNhYmxlZCk6aG92ZXJcblxuLy8gIC5wLW1lbnViYXIgLnAtbWVudWJhci1yb290LWxpc3QgLnAtbWVudWl0ZW0gLm1lbnViYXItaW5mb3JtYXRpb24ucC1tZW51aXRlbS1saW5rOm5vdCgucC1kaXNhYmxlZCk6aG92ZXIgLnAtbWVudWl0ZW0taWNvblxuXG4vLyAucC1tZW51YmFyIC5wLW1lbnViYXItcm9vdC1saXN0ID4gLnAtbWVudWl0ZW0ucC1tZW51aXRlbS1hY3RpdmUgPiAucC1tZW51aXRlbS1saW5rLFxuLy8gLnAtbWVudWJhciAucC1tZW51YmFyLXJvb3QtbGlzdCA+IC5wLW1lbnVpdGVtLnAtbWVudWl0ZW0tYWN0aXZlID4gLnAtbWVudWl0ZW0tbGluazpub3QoLnAtZGlzYWJsZWQpOmhvdmVyXG4iXX0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-root',
+                templateUrl: './app.component.html',
+                styleUrls: ['./app.component.scss']
+            }]
+    }], null, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/app.module.ts":
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
+/*! exports provided: AppModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var primeng_menubar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! primeng/menubar */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-menubar.js");
+/* harmony import */ var primeng_dropdown__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! primeng/dropdown */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-dropdown.js");
+/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! primeng/button */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-button.js");
+/* harmony import */ var primeng_checkbox__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! primeng/checkbox */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-checkbox.js");
+/* harmony import */ var primeng_spinner__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! primeng/spinner */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-spinner.js");
+/* harmony import */ var primeng_inputnumber__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! primeng/inputnumber */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-inputnumber.js");
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! primeng/chart */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-chart.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _play_play_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./play/play.component */ "./src/app/play/play.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js");
+/* harmony import */ var _play_ground_play_ground_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./play-ground/play-ground.component */ "./src/app/play-ground/play-ground.component.ts");
+/* harmony import */ var _information_information_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./information/information.component */ "./src/app/information/information.component.ts");
+/* harmony import */ var _testing_testing_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./testing/testing.component */ "./src/app/testing/testing.component.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _training_training_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./training/training.component */ "./src/app/training/training.component.ts");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class AppModule {
+}
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"]] });
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [{ provide: _angular_common__WEBPACK_IMPORTED_MODULE_17__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_17__["HashLocationStrategy"] }], imports: [[
+            _angular_forms__WEBPACK_IMPORTED_MODULE_12__["FormsModule"],
+            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_13__["NoopAnimationsModule"],
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_9__["AppRoutingModule"],
+            primeng_menubar__WEBPACK_IMPORTED_MODULE_2__["MenubarModule"],
+            primeng_dropdown__WEBPACK_IMPORTED_MODULE_3__["DropdownModule"],
+            primeng_button__WEBPACK_IMPORTED_MODULE_4__["ButtonModule"],
+            primeng_checkbox__WEBPACK_IMPORTED_MODULE_5__["CheckboxModule"],
+            primeng_spinner__WEBPACK_IMPORTED_MODULE_6__["SpinnerModule"],
+            primeng_inputnumber__WEBPACK_IMPORTED_MODULE_7__["InputNumberModule"],
+            primeng_chart__WEBPACK_IMPORTED_MODULE_8__["ChartModule"],
+        ]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"],
+        _play_play_component__WEBPACK_IMPORTED_MODULE_11__["PlayComponent"],
+        _play_ground_play_ground_component__WEBPACK_IMPORTED_MODULE_14__["PlayGroundComponent"],
+        _information_information_component__WEBPACK_IMPORTED_MODULE_15__["InformationComponent"],
+        _testing_testing_component__WEBPACK_IMPORTED_MODULE_16__["TestingComponent"],
+        _training_training_component__WEBPACK_IMPORTED_MODULE_18__["TrainingComponent"]], imports: [_angular_forms__WEBPACK_IMPORTED_MODULE_12__["FormsModule"],
+        _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_13__["NoopAnimationsModule"],
+        _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _app_routing_module__WEBPACK_IMPORTED_MODULE_9__["AppRoutingModule"],
+        primeng_menubar__WEBPACK_IMPORTED_MODULE_2__["MenubarModule"],
+        primeng_dropdown__WEBPACK_IMPORTED_MODULE_3__["DropdownModule"],
+        primeng_button__WEBPACK_IMPORTED_MODULE_4__["ButtonModule"],
+        primeng_checkbox__WEBPACK_IMPORTED_MODULE_5__["CheckboxModule"],
+        primeng_spinner__WEBPACK_IMPORTED_MODULE_6__["SpinnerModule"],
+        primeng_inputnumber__WEBPACK_IMPORTED_MODULE_7__["InputNumberModule"],
+        primeng_chart__WEBPACK_IMPORTED_MODULE_8__["ChartModule"]] }); })();
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
+        args: [{
+                declarations: [
+                    _app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"],
+                    _play_play_component__WEBPACK_IMPORTED_MODULE_11__["PlayComponent"],
+                    _play_ground_play_ground_component__WEBPACK_IMPORTED_MODULE_14__["PlayGroundComponent"],
+                    _information_information_component__WEBPACK_IMPORTED_MODULE_15__["InformationComponent"],
+                    _testing_testing_component__WEBPACK_IMPORTED_MODULE_16__["TestingComponent"],
+                    _training_training_component__WEBPACK_IMPORTED_MODULE_18__["TrainingComponent"],
+                ],
+                imports: [
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_12__["FormsModule"],
+                    _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_13__["NoopAnimationsModule"],
+                    _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+                    _app_routing_module__WEBPACK_IMPORTED_MODULE_9__["AppRoutingModule"],
+                    primeng_menubar__WEBPACK_IMPORTED_MODULE_2__["MenubarModule"],
+                    primeng_dropdown__WEBPACK_IMPORTED_MODULE_3__["DropdownModule"],
+                    primeng_button__WEBPACK_IMPORTED_MODULE_4__["ButtonModule"],
+                    primeng_checkbox__WEBPACK_IMPORTED_MODULE_5__["CheckboxModule"],
+                    primeng_spinner__WEBPACK_IMPORTED_MODULE_6__["SpinnerModule"],
+                    primeng_inputnumber__WEBPACK_IMPORTED_MODULE_7__["InputNumberModule"],
+                    primeng_chart__WEBPACK_IMPORTED_MODULE_8__["ChartModule"],
+                ],
+                providers: [{ provide: _angular_common__WEBPACK_IMPORTED_MODULE_17__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_17__["HashLocationStrategy"] }],
+                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"]]
+            }]
+    }], null, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/information/information.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/information/information.component.ts ***!
+  \******************************************************/
+/*! exports provided: InformationComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InformationComponent", function() { return InformationComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+class InformationComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+InformationComponent.ɵfac = function InformationComponent_Factory(t) { return new (t || InformationComponent)(); };
+InformationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: InformationComponent, selectors: [["app-information"]], decls: 37, vars: 0, consts: [["href", "https://thecodingtrain.com"], ["href", "https://youtu.be/trKjYdBASyQ"]], template: function InformationComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Player Implementations");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "There are multiple implementations to compete with each others");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Player - Human");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "The Player Human is YOU! Just click on the board to play.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Robot - Random");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "The dumbest player! It just randomly choose a free cell.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Robot - Minimax");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "The 'perfect' player! But also the slowest. It tries out all possible combinations to decide the best move.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "A detailed explanation about the algorithm can be found on ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "thecodingtrain.com");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, " the ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, " Coding Challenge 154 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, ".\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, " In additional to the simple rules to categories WIN, DRAW and LOSS, this minimax implementation has two improvements:\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Uses the ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "depth");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, " in the score to prefer winning faster and losing slower.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Small adjustment of the score to prefer ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "DRAW");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "s with higher possibilities to win and lower possibilities to lose");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2luZm9ybWF0aW9uL2luZm9ybWF0aW9uLmNvbXBvbmVudC5zY3NzIn0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](InformationComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-information',
+                templateUrl: './information.component.html',
+                styleUrls: ['./information.component.scss']
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/model/game-snapshot.ts":
+/*!****************************************!*\
+  !*** ./src/app/model/game-snapshot.ts ***!
+  \****************************************/
+/*! exports provided: GameSnapshot */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GameSnapshot", function() { return GameSnapshot; });
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
+
+class GameSnapshot {
+    constructor(playGround, lastPosition, lastPlayerColor, nextPlayerColor, lastMoveWasSuccess) {
+        this.playGround = playGround;
+        this.lastPosition = lastPosition;
+        this.lastPlayerColor = lastPlayerColor;
+        this.nextPlayerColor = nextPlayerColor;
+        this.lastMoveWasSuccess = lastMoveWasSuccess;
+        this.playGround = lodash__WEBPACK_IMPORTED_MODULE_0__["cloneDeep"](playGround);
+        this.lastPosition = Object.assign({}, lastPosition);
+    }
+    copy() {
+        return new GameSnapshot(this.playGround, this.lastPosition, this.lastPlayerColor, this.nextPlayerColor, this.lastMoveWasSuccess);
+    }
+}
+
+
+/***/ }),
+
+/***/ "./src/app/model/human-player.ts":
+/*!***************************************!*\
+  !*** ./src/app/model/human-player.ts ***!
+  \***************************************/
+/*! exports provided: HumanPlayer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HumanPlayer", function() { return HumanPlayer; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+
+
+class HumanPlayer {
+    constructor(game, playerColor) {
+        this.game = game;
+        this.playerColor = playerColor;
+        this.isActive = false;
+    }
+    move() {
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            // this player can now make his move.
+            this.isActive = true;
+            this.finishedMove = new rxjs__WEBPACK_IMPORTED_MODULE_1__["AsyncSubject"]();
+            return this.finishedMove.toPromise();
+        });
+    }
+    click(col, row) {
+        if (!this.isActive) {
+            // do nothing, ignore the click.
+            return;
+        }
+        this.game.move(this.playerColor, col, row);
+        this.isActive = false;
+        this.finishedMove.next();
+        this.finishedMove.complete();
+    }
+    cancleMove() {
+        if (!this.isActive) {
+            // do nothing, ignore the click.
+            return;
+        }
+        this.isActive = false;
+        this.finishedMove.next();
+        this.finishedMove.complete();
+    }
+}
+HumanPlayer.factory = {
+    name: 'Human',
+    createPlayer: (game, playerColor) => {
+        return new HumanPlayer(game, playerColor);
+    }
+};
+
+
+/***/ }),
+
+/***/ "./src/app/model/minimax-player.ts":
+/*!*****************************************!*\
+  !*** ./src/app/model/minimax-player.ts ***!
+  \*****************************************/
+/*! exports provided: MinimaxPlayer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MinimaxPlayer", function() { return MinimaxPlayer; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _player_color__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./player-color */ "./src/app/model/player-color.ts");
+/* harmony import */ var node_cache__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! node-cache */ "./node_modules/node-cache/index.js");
+/* harmony import */ var node_cache__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(node_cache__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+/** Minimax is explaned in 'Coding Challenge 154': https://youtu.be/trKjYdBASyQ from the https://thecodingtrain.com  */
+class MinimaxPlayer {
+    constructor(game, playerColor, delayMillis, minimaxOptions) {
+        this.game = game;
+        this.playerColor = playerColor;
+        this.delayMillis = delayMillis;
+        this.minimaxOptions = minimaxOptions;
+    }
+    static createFactory(name, delayMillis, minimaxOptions) {
+        return {
+            name,
+            createPlayer: (game, playerColor) => {
+                return new MinimaxPlayer(game, playerColor, delayMillis, minimaxOptions);
+            }
+        };
+    }
+    static minimax(game, playerColor, depth = 0, minimaxOptions = { withDepthAdjustment: true, withDrawAdjustment: true }) {
+        const cacheKey = [
+            _player_color__WEBPACK_IMPORTED_MODULE_1__["PlayerColor"][playerColor],
+            _player_color__WEBPACK_IMPORTED_MODULE_1__["PlayerColor"][game.nextPlayerColor],
+            ...game.playGround,
+            minimaxOptions.withDepthAdjustment, minimaxOptions.withDrawAdjustment
+        ].toString();
+        const cachedResult = this.myCache.get(cacheKey);
+        if (cachedResult !== undefined) {
+            return cachedResult;
+        }
+        const currentPlayerColor = game.nextPlayerColor;
+        const isMaximizing = playerColor === currentPlayerColor;
+        const result = {
+            scores: new Array(game.cols).fill(undefined).map(() => new Array(game.rows)),
+            bestPosition: { col: -1, row: -1 },
+            bestScore: isMaximizing ? -Infinity : Infinity
+        };
+        if (game.isGameFinished()) {
+            this.myCache.set(cacheKey, result);
+            return result;
+        }
+        // console.log('init scores: ', result.scores);
+        const playGround = lodash__WEBPACK_IMPORTED_MODULE_3__["cloneDeep"](game.playGround);
+        playGround.forEach((column, col) => {
+            column.forEach((cell, row) => {
+                if (cell === _player_color__WEBPACK_IMPORTED_MODULE_1__["PlayerColor"].FREE) {
+                    // make move without TRAKING history (is a little bit faster)
+                    game.nextPlayerColor = _player_color__WEBPACK_IMPORTED_MODULE_1__["PlayerColorUtil"].opposite(currentPlayerColor);
+                    game.playGround[col][row] = currentPlayerColor;
+                    // if (!game.move(currentPlayerColor, col, row)) {
+                    //     console.log('current playground: ', game.playGround);
+                    //     throw new Error(`move for player ${PlayerColor[currentPlayerColor]} to ${col}/${row} was not success.`);
+                    // }
+                    const score = MinimaxPlayer.getScore(game, playerColor, depth, minimaxOptions);
+                    result.scores[col][row] = score;
+                    if (isMaximizing && score > result.bestScore) {
+                        result.bestScore = score;
+                        result.bestPosition = { col, row };
+                    }
+                    else if (!isMaximizing && score < result.bestScore) {
+                        result.bestScore = score;
+                        result.bestPosition = { col, row };
+                    }
+                    // revert move without un-traking history
+                    game.playGround[col][row] = _player_color__WEBPACK_IMPORTED_MODULE_1__["PlayerColor"].FREE;
+                    game.nextPlayerColor = currentPlayerColor;
+                    game.resetFindWinner();
+                    // if (!game.revertMove(currentPlayerColor, col, row)) {
+                    //     console.log('current playground: ', game.playGround);
+                    //     throw new Error(`move for player ${PlayerColor[currentPlayerColor]} to ${col}/${row} was not success.`);
+                    // }
+                }
+            });
+        });
+        if (minimaxOptions.withDrawAdjustment) {
+            // small correction if prediction is DRAW, adjust it by count the possible wins or loses of all scores
+            // In other words: hoping the opponent makes NOT the best move.
+            if (Math.round(result.bestScore) === 0) {
+                // small correction: prefer moves with higher chance to win and lower chance to loss:
+                lodash__WEBPACK_IMPORTED_MODULE_3__["flatten"](result.scores).forEach((prediction) => {
+                    if (prediction !== undefined) {
+                        if (!isMaximizing) {
+                            // only count opposite possibilities to lose, because minimax itself will always do the best move.
+                            result.bestScore += (Math.round(prediction) * 0.001);
+                        }
+                    }
+                });
+            }
+        }
+        result.bestScore = lodash__WEBPACK_IMPORTED_MODULE_3__["round"](result.bestScore, 5);
+        this.myCache.set(cacheKey, result);
+        return result;
+    }
+    static getScoreName(score) {
+        return this.scorToNameMap[Math.round(score)];
+    }
+    static getScore(game, playerColor, depth, minimaxOptions) {
+        if (game.isGameFinished()) {
+            // depthCorrection: prefer shorter games: win faster or loss slower
+            let depthCorrection = 0;
+            if (minimaxOptions.withDepthAdjustment) {
+                depthCorrection = .4 - (0.001 * depth);
+            }
+            const winner = game.findWinner();
+            if (winner === playerColor) {
+                // console.log(`Winner: ${PlayerColor[winner]}; player: ${PlayerColor[playerColor]}`);
+                return 1 + depthCorrection;
+            }
+            else if (winner === _player_color__WEBPACK_IMPORTED_MODULE_1__["PlayerColorUtil"].opposite(playerColor)) {
+                return -1 - depthCorrection;
+            }
+            else {
+                return 0;
+            }
+        }
+        else {
+            return MinimaxPlayer.minimax(game, playerColor, depth + 1, minimaxOptions).bestScore;
+        }
+    }
+    move() {
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            // get free Cells for possible moves
+            const minimax = MinimaxPlayer.minimax(this.game.copy(), this.playerColor, 0, this.minimaxOptions);
+            // apply small delay for nicer play-animations.
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    this.game.move(this.playerColor, minimax.bestPosition.col, minimax.bestPosition.row);
+                    resolve();
+                }, this.delayMillis);
+            });
+        });
+    }
+}
+MinimaxPlayer.scorToNameMap = {
+    '-1': 'LOOS',
+    1: 'WIN',
+    0: 'DRAW',
+};
+MinimaxPlayer.myCache = new node_cache__WEBPACK_IMPORTED_MODULE_2__();
+MinimaxPlayer.factory = MinimaxPlayer.createFactory('Robot-Minimax', 300, { withDepthAdjustment: true, withDrawAdjustment: true });
+
+
+/***/ }),
+
+/***/ "./src/app/model/play-ground.ts":
+/*!**************************************!*\
+  !*** ./src/app/model/play-ground.ts ***!
+  \**************************************/
+/*! exports provided: PlayGround */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PlayGround", function() { return PlayGround; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _player_color__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./player-color */ "./src/app/model/player-color.ts");
+
+
+class PlayGround {
+    constructor(game, player1, player2) {
+        this.game = game;
+        this.player1 = player1;
+        this.player2 = player2;
+        this.colorToPlayerMap = {};
+        this.colorToPlayerNameMap = {};
+        this.colorToPlayerMap[player1.playerColor] = player1;
+        this.colorToPlayerMap[player2.playerColor] = player2;
+        this.colorToPlayerNameMap[player1.playerColor] = 'Player-1 ' + _player_color__WEBPACK_IMPORTED_MODULE_1__["PlayerColor"][player1.playerColor];
+        this.colorToPlayerNameMap[player2.playerColor] = 'Player-2 ' + _player_color__WEBPACK_IMPORTED_MODULE_1__["PlayerColor"][player2.playerColor];
+    }
+    getNextPlayer() {
+        return this.colorToPlayerMap[this.game.nextPlayerColor];
+    }
+    getNextPlayerName() {
+        return this.colorToPlayerNameMap[this.game.nextPlayerColor];
+    }
+    getWinnerName() {
+        return this.colorToPlayerNameMap[this.game.findWinner()];
+    }
+    startGame() {
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            while (!this.game.isGameFinished()) {
+                yield this.getNextPlayer().move();
+            }
+        });
+    }
+}
+
+
+/***/ }),
+
+/***/ "./src/app/model/player-color.ts":
+/*!***************************************!*\
+  !*** ./src/app/model/player-color.ts ***!
+  \***************************************/
+/*! exports provided: PlayerColor, PlayerColorUtil */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PlayerColor", function() { return PlayerColor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PlayerColorUtil", function() { return PlayerColorUtil; });
+var PlayerColor;
+(function (PlayerColor) {
+    PlayerColor[PlayerColor["RED"] = 0] = "RED";
+    PlayerColor[PlayerColor["GREEN"] = 1] = "GREEN";
+    PlayerColor[PlayerColor["FREE"] = 2] = "FREE";
+})(PlayerColor || (PlayerColor = {}));
+class PlayerColorUtil {
+    static opposite(playerColor) {
+        switch (playerColor) {
+            case PlayerColor.RED:
+                return PlayerColor.GREEN;
+            case PlayerColor.GREEN:
+                return PlayerColor.RED;
+            case PlayerColor.FREE:
+                return PlayerColor.FREE;
+        }
+    }
+}
+
+
+/***/ }),
+
+/***/ "./src/app/model/random-player.ts":
+/*!****************************************!*\
+  !*** ./src/app/model/random-player.ts ***!
+  \****************************************/
+/*! exports provided: RandomPlayer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RandomPlayer", function() { return RandomPlayer; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _player_color__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./player-color */ "./src/app/model/player-color.ts");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+class RandomPlayer {
+    constructor(game, playerColor, delayMillis) {
+        this.game = game;
+        this.playerColor = playerColor;
+        this.delayMillis = delayMillis;
+    }
+    static createFactory(delayMillis) {
+        return {
+            name: 'Robot-Random',
+            createPlayer: (game, playerColor) => {
+                return new RandomPlayer(game, playerColor, delayMillis);
+            }
+        };
+    }
+    move() {
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            // get free Cells for possible moves
+            const freeCells = [];
+            this.game.playGround.forEach((line, col) => {
+                line.forEach((cell, row) => {
+                    if (cell === _player_color__WEBPACK_IMPORTED_MODULE_1__["PlayerColor"].FREE) {
+                        freeCells.push({ col, row });
+                    }
+                });
+            });
+            // pick a random free Cell:
+            const selectedCell = lodash__WEBPACK_IMPORTED_MODULE_2__["sample"](freeCells);
+            // apply small delay for nicer play-animations.
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    this.game.move(this.playerColor, selectedCell.col, selectedCell.row);
+                    resolve();
+                }, this.delayMillis);
+            });
+        });
+    }
+}
+RandomPlayer.factory = RandomPlayer.createFactory(300);
+
+
+/***/ }),
+
+/***/ "./src/app/model/statistic-summary.ts":
+/*!********************************************!*\
+  !*** ./src/app/model/statistic-summary.ts ***!
+  \********************************************/
+/*! exports provided: StatisticSummary */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StatisticSummary", function() { return StatisticSummary; });
+class StatisticSummary {
+    constructor() {
+        this.redWins = 0;
+        this.greenWins = 0;
+        this.draws = 0;
+        this.countGames = 0;
+        this.countFailedMoves = 0;
+        this.countSuccessMoves = 0;
+    }
+}
+
+
+/***/ }),
+
+/***/ "./src/app/model/tensorflow-player.ts":
+/*!********************************************!*\
+  !*** ./src/app/model/tensorflow-player.ts ***!
+  \********************************************/
+/*! exports provided: TensorflowPlayer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TensorflowPlayer", function() { return TensorflowPlayer; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+
+class TensorflowPlayer {
+    constructor(trainingService, game, playerColor, delayMillis) {
+        this.trainingService = trainingService;
+        this.game = game;
+        this.playerColor = playerColor;
+        this.delayMillis = delayMillis;
+    }
+    static createFactory(trainingService, delayMillis) {
+        return {
+            name: 'Robot-Tensorflow',
+            createPlayer: (game, playerColor) => {
+                return new TensorflowPlayer(trainingService, game, playerColor, delayMillis);
+            }
+        };
+    }
+    move() {
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            const predictionResult = this.trainingService.predictNextMove(this.game.playGround, this.playerColor);
+            // apply small delay for nicer play-animations.
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    this.game.move(this.playerColor, predictionResult.bestPosition.col, predictionResult.bestPosition.row);
+                    resolve();
+                }, this.delayMillis);
+            });
+        });
+    }
+}
+
+
+/***/ }),
+
+/***/ "./src/app/model/tic-tac-toe-game.ts":
+/*!*******************************************!*\
+  !*** ./src/app/model/tic-tac-toe-game.ts ***!
+  \*******************************************/
+/*! exports provided: TicTacToeGame */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TicTacToeGame", function() { return TicTacToeGame; });
+/* harmony import */ var _player_color__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./player-color */ "./src/app/model/player-color.ts");
+/* harmony import */ var _game_snapshot__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./game-snapshot */ "./src/app/model/game-snapshot.ts");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+
+
+
+
+class TicTacToeGame {
+    constructor() {
+        this.rows = 3;
+        this.cols = 3;
+        this.playGroundSubject = new rxjs__WEBPACK_IMPORTED_MODULE_3__["BehaviorSubject"](this);
+        this.reset();
+    }
+    reset() {
+        this.history = [];
+        this.playGround = new Array(this.cols).fill(undefined).map(() => new Array(this.rows).fill(_player_color__WEBPACK_IMPORTED_MODULE_0__["PlayerColor"].FREE));
+        this.lastPosition = undefined;
+        this.lastPlayerColor = undefined;
+        this.nextPlayerColor = _player_color__WEBPACK_IMPORTED_MODULE_0__["PlayerColor"].RED;
+        this.movesSuccessful = 0;
+        this.movesOverall = 0;
+        this.resetFindWinner();
+        this.playGroundSubject.next(this);
+    }
+    resetFindWinner() {
+        this.winnerColor = undefined;
+        this.hasAlreadySearchedForWinner = false;
+    }
+    copy() {
+        const game = new TicTacToeGame();
+        game.rows = this.rows;
+        game.cols = this.cols;
+        game.history = lodash__WEBPACK_IMPORTED_MODULE_2__["clone"](this.history);
+        game.playGround = lodash__WEBPACK_IMPORTED_MODULE_2__["cloneDeep"](this.playGround);
+        game.lastPosition = this.lastPosition;
+        game.lastPlayerColor = this.lastPlayerColor;
+        game.nextPlayerColor = this.nextPlayerColor;
+        game.winnerColor = this.winnerColor;
+        game.movesSuccessful = this.movesSuccessful;
+        game.movesOverall = this.movesOverall;
+        game.hasAlreadySearchedForWinner = this.hasAlreadySearchedForWinner;
+        return game;
+    }
+    move(playerColor, col, row) {
+        if (this.isGameFinished()) {
+            return false;
+        }
+        const success = this.setColor(playerColor, col, row);
+        this.movesOverall++;
+        if (success) {
+            this.movesSuccessful++;
+            this.hasAlreadySearchedForWinner = false;
+        }
+        else {
+            // Player (especially if KI) Looses imediatly if it makes an wrong move.
+            this.winnerColor = _player_color__WEBPACK_IMPORTED_MODULE_0__["PlayerColorUtil"].opposite(playerColor);
+            this.hasAlreadySearchedForWinner = true;
+        }
+        return success;
+    }
+    revertMove(playerColor, col, row) {
+        const lastSnapshot = this.history.pop();
+        if (lastSnapshot.lastPosition.col !== col || lastSnapshot.lastPosition.row !== row) {
+            console.warn(`Cannot revert move with col=${col} row=${row},
+            because it doesn't match the last Position col=${this.lastPosition.col} row=${this.lastPosition.col}.`);
+            this.history.push(lastSnapshot);
+            return false;
+        }
+        if (lastSnapshot.lastPlayerColor !== playerColor) {
+            console.warn(`Cannot revert move for playerColor=${_player_color__WEBPACK_IMPORTED_MODULE_0__["PlayerColor"][playerColor]},
+            because it doesn't match the last PlayerColor col=${_player_color__WEBPACK_IMPORTED_MODULE_0__["PlayerColor"][lastSnapshot.lastPlayerColor]}.`);
+            this.history.push(lastSnapshot);
+            return false;
+        }
+        if (this.history.length === 0) {
+            this.reset();
+            return true;
+        }
+        const oldSnapshot = lodash__WEBPACK_IMPORTED_MODULE_2__["last"](this.history).copy();
+        this.playGround = oldSnapshot.playGround;
+        this.lastPlayerColor = oldSnapshot.lastPlayerColor;
+        this.lastPosition = oldSnapshot.lastPosition;
+        this.nextPlayerColor = oldSnapshot.nextPlayerColor;
+        this.movesOverall--;
+        if (lastSnapshot.lastMoveWasSuccess) {
+            this.movesSuccessful--;
+        }
+        this.hasAlreadySearchedForWinner = false;
+        this.winnerColor = undefined;
+        this.playGroundSubject.next(this);
+        return true;
+    }
+    getColor(col, row) {
+        return this.playGround[col][row];
+    }
+    setColor(playerColor, col, row) {
+        this.lastPlayerColor = playerColor;
+        this.nextPlayerColor = _player_color__WEBPACK_IMPORTED_MODULE_0__["PlayerColorUtil"].opposite(playerColor);
+        let success;
+        if (this.getColor(col, row) === _player_color__WEBPACK_IMPORTED_MODULE_0__["PlayerColor"].FREE) {
+            this.playGround[col][row] = playerColor;
+            this.lastPosition = { col, row };
+            this.playGroundSubject.next(this);
+            success = true;
+        }
+        else {
+            success = false;
+        }
+        this.history.push(new _game_snapshot__WEBPACK_IMPORTED_MODULE_1__["GameSnapshot"](this.playGround, this.lastPosition, this.lastPlayerColor, this.nextPlayerColor, success));
+        return success;
+    }
+    isGameFinished() {
+        this.findWinner();
+        if (this.winnerColor !== undefined) {
+            return true;
+        }
+        if (lodash__WEBPACK_IMPORTED_MODULE_2__["findIndex"](lodash__WEBPACK_IMPORTED_MODULE_2__["flatten"](this.playGround), (v) => v === _player_color__WEBPACK_IMPORTED_MODULE_0__["PlayerColor"].FREE) === -1) {
+            // no free field anymore -> DRAW
+            return true;
+        }
+        if (this.movesOverall >= TicTacToeGame.MAX_MOVES) {
+            console.log('isGameFinished - movesOverall >= TicTacToeGame.MAX_MOVES', this.winnerColor);
+            return true;
+        }
+        return false;
+    }
+    findWinner() {
+        if (this.hasAlreadySearchedForWinner) {
+            return this.winnerColor;
+        }
+        this._findWinnerVertical();
+        this._findWinnerHorizontal();
+        this._findWinnerDiagonal();
+        return this.winnerColor;
+    }
+    _findWinnerVertical() {
+        if (this.winnerColor !== undefined) {
+            return;
+        }
+        let lastField;
+        let counter;
+        for (let col = 0; col < this.cols; col++) {
+            lastField = undefined;
+            counter = 0;
+            for (let row = 0; row < this.rows; row++) {
+                if (this.getColor(col, row) === lastField) {
+                    counter++;
+                }
+                else {
+                    counter = 1;
+                }
+                if (lastField !== undefined && lastField !== _player_color__WEBPACK_IMPORTED_MODULE_0__["PlayerColor"].FREE && counter === 3) {
+                    this.winnerColor = lastField;
+                    return;
+                }
+                lastField = this.getColor(col, row);
+            }
+        }
+    }
+    _findWinnerHorizontal() {
+        if (this.winnerColor !== undefined) {
+            return;
+        }
+        let lastField;
+        let counter;
+        for (let row = 0; row < this.rows; row++) {
+            lastField = undefined;
+            counter = 0;
+            for (let col = 0; col < this.cols; col++) {
+                if (this.getColor(col, row) === lastField) {
+                    counter++;
+                }
+                else {
+                    counter = 1;
+                }
+                if (lastField !== undefined && lastField !== _player_color__WEBPACK_IMPORTED_MODULE_0__["PlayerColor"].FREE && counter === 3) {
+                    this.winnerColor = lastField;
+                    return;
+                }
+                lastField = this.getColor(col, row);
+            }
+        }
+    }
+    _findWinnerDiagonal() {
+        if (this.winnerColor !== undefined) {
+            return;
+        }
+        let rowToTest;
+        let lastField;
+        let counter;
+        // from left top to right bottom
+        for (let row = -this.cols + 1; row < this.rows; row++) {
+            lastField = undefined;
+            counter = 0;
+            for (let col = 0; col < this.cols; col++) {
+                rowToTest = row + col;
+                if (rowToTest < 0 || rowToTest >= this.rows) {
+                    continue;
+                }
+                if (this.getColor(col, rowToTest) === lastField) {
+                    counter++;
+                }
+                else {
+                    counter = 1;
+                }
+                if (lastField !== undefined && lastField !== _player_color__WEBPACK_IMPORTED_MODULE_0__["PlayerColor"].FREE && counter === 3) {
+                    this.winnerColor = lastField;
+                    return;
+                }
+                lastField = this.getColor(col, rowToTest);
+            }
+        }
+        // from left bottom to right top
+        for (let row = 0; row < this.rows + this.cols - 1; row++) {
+            lastField = undefined;
+            counter = 0;
+            for (let col = 0; col < this.cols; col++) {
+                rowToTest = row - col;
+                if (rowToTest < 0 || rowToTest >= this.rows) {
+                    continue;
+                }
+                if (this.getColor(col, rowToTest) === lastField) {
+                    counter++;
+                }
+                else {
+                    counter = 1;
+                }
+                if (lastField !== undefined && lastField !== _player_color__WEBPACK_IMPORTED_MODULE_0__["PlayerColor"].FREE && counter === 3) {
+                    this.winnerColor = lastField;
+                    return;
+                }
+                lastField = this.getColor(col, rowToTest);
+            }
+        }
+    }
+}
+/** Maximum numbers of Moves to prevent endless games because of dump players only move on invalid field. */
+TicTacToeGame.MAX_MOVES = 12;
+
+
+/***/ }),
+
+/***/ "./src/app/play-ground/play-ground.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/play-ground/play-ground.component.ts ***!
+  \******************************************************/
+/*! exports provided: PlayGroundComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PlayGroundComponent", function() { return PlayGroundComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _model_player_color__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../model/player-color */ "./src/app/model/player-color.ts");
+/* harmony import */ var _model_human_player__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../model/human-player */ "./src/app/model/human-player.ts");
+/* harmony import */ var _model_minimax_player__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../model/minimax-player */ "./src/app/model/minimax-player.ts");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _services_training_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../services/training.service */ "./src/app/services/training.service.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+
+
+
+
+
+
+
+
+function PlayGroundComponent_div_1_p_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" The Winner is: ", ctx_r3.playGround.getWinnerName(), " ");
+} }
+function PlayGroundComponent_div_1_p_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " No Winner - DRAW ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function PlayGroundComponent_div_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, PlayGroundComponent_div_1_p_1_Template, 2, 1, "p", 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, PlayGroundComponent_div_1_p_2_Template, 2, 0, "p", 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r0.playGround.getWinnerName());
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx_r0.playGround.getWinnerName());
+} }
+function PlayGroundComponent_div_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" Game is Running... Next move: ", ctx_r1.playGround.getNextPlayerName(), ". ");
+} }
+function PlayGroundComponent_ng_container_4_ng_container_2_div_1_div_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const rowIdx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2).index;
+    const colIdx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().index;
+    const ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r13.getPrediction(colIdx_r6, rowIdx_r9));
+} }
+function PlayGroundComponent_ng_container_4_ng_container_2_div_1_Template(rf, ctx) { if (rf & 1) {
+    const _r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function PlayGroundComponent_ng_container_4_ng_container_2_div_1_Template_div_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r18); const rowIdx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().index; const colIdx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().index; const ctx_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r16.click(colIdx_r6, rowIdx_r9); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, PlayGroundComponent_ng_container_4_ng_container_2_div_1_div_1_Template, 2, 1, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "svg", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "line", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "line", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const rowIdx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().index;
+    const colIdx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().index;
+    const ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx_r10.getCellCss(colIdx_r6, rowIdx_r9));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r10.showPrediction);
+} }
+function PlayGroundComponent_ng_container_4_ng_container_2_div_2_div_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const rowIdx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2).index;
+    const colIdx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().index;
+    const ctx_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r22.getPrediction(colIdx_r6, rowIdx_r9));
+} }
+function PlayGroundComponent_ng_container_4_ng_container_2_div_2_Template(rf, ctx) { if (rf & 1) {
+    const _r27 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function PlayGroundComponent_ng_container_4_ng_container_2_div_2_Template_div_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r27); const rowIdx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().index; const colIdx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().index; const ctx_r25 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r25.click(colIdx_r6, rowIdx_r9); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, PlayGroundComponent_ng_container_4_ng_container_2_div_2_div_1_Template, 2, 1, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "svg", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "circle", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const rowIdx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().index;
+    const colIdx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().index;
+    const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx_r11.getCellCss(colIdx_r6, rowIdx_r9));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r11.showPrediction);
+} }
+function PlayGroundComponent_ng_container_4_ng_container_2_div_3_div_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const rowIdx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2).index;
+    const colIdx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().index;
+    const ctx_r31 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r31.getPrediction(colIdx_r6, rowIdx_r9));
+} }
+function PlayGroundComponent_ng_container_4_ng_container_2_div_3_Template(rf, ctx) { if (rf & 1) {
+    const _r36 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function PlayGroundComponent_ng_container_4_ng_container_2_div_3_Template_div_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r36); const rowIdx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().index; const colIdx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().index; const ctx_r34 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r34.click(colIdx_r6, rowIdx_r9); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, PlayGroundComponent_ng_container_4_ng_container_2_div_3_div_1_Template, 2, 1, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const rowIdx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().index;
+    const colIdx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().index;
+    const ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx_r12.getCellCss(colIdx_r6, rowIdx_r9));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r12.showPrediction);
+} }
+function PlayGroundComponent_ng_container_4_ng_container_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, PlayGroundComponent_ng_container_4_ng_container_2_div_1_Template, 5, 4, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, PlayGroundComponent_ng_container_4_ng_container_2_div_2_Template, 4, 4, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, PlayGroundComponent_ng_container_4_ng_container_2_div_3_Template, 2, 4, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+} if (rf & 2) {
+    const cell_r8 = ctx.$implicit;
+    const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r7.playerColorName(cell_r8) === "RED");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r7.playerColorName(cell_r8) === "GREEN");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r7.playerColorName(cell_r8) === "FREE");
+} }
+function PlayGroundComponent_ng_container_4_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, PlayGroundComponent_ng_container_4_ng_container_2_Template, 4, 3, "ng-container", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+} if (rf & 2) {
+    const row_r5 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", row_r5);
+} }
+class PlayGroundComponent {
+    constructor(trainingService) {
+        this.trainingService = trainingService;
+    }
+    ngOnChanges(changes) {
+        if (lodash__WEBPACK_IMPORTED_MODULE_4__["get"](changes, 'playGround')) {
+            if (this.gamePlayGroundSubscription) {
+                this.gamePlayGroundSubscription.unsubscribe();
+            }
+            this.gamePlayGroundSubscription = this.playGround.game.playGroundSubject
+                .subscribe((game) => {
+                if (this.showPrediction === 'MiniMax') {
+                    const gameClone = game.copy();
+                    const currentPlayerColor = gameClone.nextPlayerColor;
+                    this.prediction = _model_minimax_player__WEBPACK_IMPORTED_MODULE_3__["MinimaxPlayer"].minimax(gameClone, currentPlayerColor).scores;
+                }
+                else if (this.showPrediction === 'Tensorflow') {
+                    const gameClone = game.copy();
+                    const currentPlayerColor = gameClone.nextPlayerColor;
+                    this.prediction = this.trainingService.predictNextMove(gameClone.playGround, currentPlayerColor).scores;
+                }
+            });
+        }
+    }
+    playerColorName(playerColor) {
+        return _model_player_color__WEBPACK_IMPORTED_MODULE_1__["PlayerColor"][playerColor].toString();
+    }
+    click(col, row) {
+        if (this.playGround.game.playGround[col][row] !== _model_player_color__WEBPACK_IMPORTED_MODULE_1__["PlayerColor"].FREE) {
+            // ignore click;
+            return;
+        }
+        const nextPlayer = this.playGround.getNextPlayer();
+        if (nextPlayer instanceof _model_human_player__WEBPACK_IMPORTED_MODULE_2__["HumanPlayer"]) {
+            nextPlayer.click(col, row);
+        }
+    }
+    getPrediction(col, row) {
+        if (!this.prediction) {
+            return;
+        }
+        const score = this.prediction[col][row];
+        if (this.showPrediction === 'MiniMax') {
+            if (score !== undefined) {
+                const scoreName = _model_minimax_player__WEBPACK_IMPORTED_MODULE_3__["MinimaxPlayer"].getScoreName(score);
+                return `${scoreName} (${score})`;
+            }
+            else {
+                return '';
+            }
+        }
+        else if (this.showPrediction === 'Tensorflow') {
+            return `${score}`;
+        }
+    }
+    getCellCss(col, row) {
+        const playerColor = this.playGround.game.playGround[col][row];
+        let cssStyle = `cell`;
+        if (playerColor !== undefined) {
+            cssStyle += ` ${this.playerColorName(playerColor)}`;
+            if (this.playGround.game.lastPosition
+                && this.playGround.game.lastPosition.col === col
+                && this.playGround.game.lastPosition.row === row) {
+                // animate last made move.
+                cssStyle += ' animate';
+            }
+        }
+        return cssStyle;
+    }
+}
+PlayGroundComponent.ɵfac = function PlayGroundComponent_Factory(t) { return new (t || PlayGroundComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_training_service__WEBPACK_IMPORTED_MODULE_5__["TrainingService"])); };
+PlayGroundComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PlayGroundComponent, selectors: [["app-play-ground"]], inputs: { playGround: "playGround", showPrediction: "showPrediction" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 5, vars: 3, consts: [[1, "playGround"], [4, "ngIf"], [1, "game-container"], [4, "ngFor", "ngForOf"], [1, "row"], [3, "class", "click", 4, "ngIf"], [3, "click"], ["class", "prediction", 4, "ngIf"], ["width", "100%", "height", "100%", "viewBox", "0 0 100 100"], ["x1", "20", "y1", "20", "x2", "80", "y2", "80", "stroke", "red", "stroke-linecap", "round", "stroke-width", "5", 1, "line", "line1"], ["x1", "80", "y1", "20", "x2", "20", "y2", "80", "stroke", "red", "stroke-linecap", "round", "stroke-width", "5", 1, "line", "line2"], [1, "prediction"], ["cx", "50", "cy", "50", "r", "40", "stroke", "green", "stroke-width", "5", "stroke-linecap", "round", "fill-opacity", "0", 1, "circle"]], template: function PlayGroundComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, PlayGroundComponent_div_1_Template, 3, 2, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, PlayGroundComponent_div_2_Template, 3, 1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, PlayGroundComponent_ng_container_4_Template, 3, 1, "ng-container", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.playGround.game.isGameFinished());
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.playGround.game.isGameFinished());
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.playGround.game.playGround);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_6__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgForOf"]], styles: [".playGround[_ngcontent-%COMP%]   .game-container[_ngcontent-%COMP%] {\n  display: block;\n  width: 300px;\n  border: 1px;\n  border-style: solid;\n  border-color: black;\n}\n.playGround[_ngcontent-%COMP%]   .game-container[_ngcontent-%COMP%]   .row[_ngcontent-%COMP%] {\n  display: flex;\n}\n.playGround[_ngcontent-%COMP%]   .game-container[_ngcontent-%COMP%]   .row[_ngcontent-%COMP%]   .cell[_ngcontent-%COMP%] {\n  width: 100px;\n  height: 100px;\n  border: 1px;\n  border-style: solid;\n  border-color: black;\n}\n@-webkit-keyframes line1 {\n  0% {\n    stroke-dashoffset: 200px;\n  }\n  50% {\n    stroke-dashoffset: 0;\n  }\n  100% {\n    stroke-dashoffset: 0;\n  }\n}\n@keyframes line1 {\n  0% {\n    stroke-dashoffset: 200px;\n  }\n  50% {\n    stroke-dashoffset: 0;\n  }\n  100% {\n    stroke-dashoffset: 0;\n  }\n}\n@-webkit-keyframes line2 {\n  0% {\n    stroke-dashoffset: 200px;\n  }\n  50% {\n    stroke-dashoffset: 200px;\n  }\n  100% {\n    stroke-dashoffset: 0;\n  }\n}\n@keyframes line2 {\n  0% {\n    stroke-dashoffset: 200px;\n  }\n  50% {\n    stroke-dashoffset: 200px;\n  }\n  100% {\n    stroke-dashoffset: 0;\n  }\n}\n.playGround[_ngcontent-%COMP%]   .game-container[_ngcontent-%COMP%]   .row[_ngcontent-%COMP%]   .cell.RED.animate[_ngcontent-%COMP%]   .line[_ngcontent-%COMP%] {\n  stroke-dasharray: 200px;\n  stroke-dashoffset: 0;\n  -webkit-animation-duration: 0.3s;\n          animation-duration: 0.3s;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-iteration-count: 1;\n          animation-iteration-count: 1;\n}\n.playGround[_ngcontent-%COMP%]   .game-container[_ngcontent-%COMP%]   .row[_ngcontent-%COMP%]   .cell.RED.animate[_ngcontent-%COMP%]   .line1[_ngcontent-%COMP%] {\n  -webkit-animation-name: line1;\n          animation-name: line1;\n}\n.playGround[_ngcontent-%COMP%]   .game-container[_ngcontent-%COMP%]   .row[_ngcontent-%COMP%]   .cell.RED.animate[_ngcontent-%COMP%]   .line2[_ngcontent-%COMP%] {\n  -webkit-animation-name: line2;\n          animation-name: line2;\n}\n@-webkit-keyframes circle {\n  0% {\n    stroke-dashoffset: 500px;\n  }\n  100% {\n    stroke-dashoffset: 0;\n  }\n}\n@keyframes circle {\n  0% {\n    stroke-dashoffset: 500px;\n  }\n  100% {\n    stroke-dashoffset: 0;\n  }\n}\n.playGround[_ngcontent-%COMP%]   .game-container[_ngcontent-%COMP%]   .row[_ngcontent-%COMP%]   .cell.GREEN.animate[_ngcontent-%COMP%]   .circle[_ngcontent-%COMP%] {\n  stroke-dasharray: 500px;\n  stroke-dashoffset: 0;\n  -webkit-animation-name: circle;\n          animation-name: circle;\n  -webkit-animation-duration: 0.3s;\n          animation-duration: 0.3s;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-iteration-count: 1;\n          animation-iteration-count: 1;\n}\n.playGround[_ngcontent-%COMP%]   .game-container[_ngcontent-%COMP%]   .row[_ngcontent-%COMP%]   .cell[_ngcontent-%COMP%]   .prediction[_ngcontent-%COMP%] {\n  width: 0;\n  height: 0;\n  overflow: visible;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGxheS1ncm91bmQvcGxheS1ncm91bmQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR0k7RUFDSSxjQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7RUFDQSxtQkFBQTtFQUNBLG1CQUFBO0FBRlI7QUFJUTtFQUNJLGFBQUE7QUFGWjtBQUlZO0VBQ0ksWUFkSDtFQWVHLGFBZkg7RUFnQkcsV0FBQTtFQUNBLG1CQUFBO0VBQ0EsbUJBQUE7QUFGaEI7QUFTb0I7RUFDSTtJQUNJLHdCQUFBO0VBUDFCO0VBU3NCO0lBQ0ksb0JBQUE7RUFQMUI7RUFTc0I7SUFDSSxvQkFBQTtFQVAxQjtBQUNGO0FBRm9CO0VBQ0k7SUFDSSx3QkFBQTtFQVAxQjtFQVNzQjtJQUNJLG9CQUFBO0VBUDFCO0VBU3NCO0lBQ0ksb0JBQUE7RUFQMUI7QUFDRjtBQVNvQjtFQUNJO0lBQ0ksd0JBQUE7RUFQMUI7RUFTc0I7SUFDSSx3QkFBQTtFQVAxQjtFQVNzQjtJQUNJLG9CQUFBO0VBUDFCO0FBQ0Y7QUFGb0I7RUFDSTtJQUNJLHdCQUFBO0VBUDFCO0VBU3NCO0lBQ0ksd0JBQUE7RUFQMUI7RUFTc0I7SUFDSSxvQkFBQTtFQVAxQjtBQUNGO0FBU29CO0VBQ0ksdUJBQUE7RUFDQSxvQkFBQTtFQUNBLGdDQUFBO1VBQUEsd0JBQUE7RUFDQSx5Q0FBQTtVQUFBLGlDQUFBO0VBQ0Esb0NBQUE7VUFBQSw0QkFBQTtBQVB4QjtBQVNvQjtFQUNJLDZCQUFBO1VBQUEscUJBQUE7QUFQeEI7QUFTb0I7RUFDSSw2QkFBQTtVQUFBLHFCQUFBO0FBUHhCO0FBZW9CO0VBQ0k7SUFDSSx3QkFBQTtFQWIxQjtFQWVzQjtJQUNJLG9CQUFBO0VBYjFCO0FBQ0Y7QUFPb0I7RUFDSTtJQUNJLHdCQUFBO0VBYjFCO0VBZXNCO0lBQ0ksb0JBQUE7RUFiMUI7QUFDRjtBQWVvQjtFQUNJLHVCQUFBO0VBQ0Esb0JBQUE7RUFDQSw4QkFBQTtVQUFBLHNCQUFBO0VBQ0EsZ0NBQUE7VUFBQSx3QkFBQTtFQUNBLHlDQUFBO1VBQUEsaUNBQUE7RUFDQSxvQ0FBQTtVQUFBLDRCQUFBO0FBYnhCO0FBaUJnQjtFQUNJLFFBQUE7RUFDQSxTQUFBO0VBQ0EsaUJBQUE7QUFmcEIiLCJmaWxlIjoic3JjL2FwcC9wbGF5LWdyb3VuZC9wbGF5LWdyb3VuZC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiRjZWxsLXdpZHRoOiAxMDBweDtcblxuLnBsYXlHcm91bmQge1xuICAgIC5nYW1lLWNvbnRhaW5lciB7XG4gICAgICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgICAgICB3aWR0aDogJGNlbGwtd2lkdGgqMztcbiAgICAgICAgYm9yZGVyOiAxcHg7XG4gICAgICAgIGJvcmRlci1zdHlsZTogc29saWQ7XG4gICAgICAgIGJvcmRlci1jb2xvcjogYmxhY2s7XG5cbiAgICAgICAgLnJvdyB7XG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuXG4gICAgICAgICAgICAuY2VsbCB7XG4gICAgICAgICAgICAgICAgd2lkdGg6ICRjZWxsLXdpZHRoO1xuICAgICAgICAgICAgICAgIGhlaWdodDogJGNlbGwtd2lkdGg7XG4gICAgICAgICAgICAgICAgYm9yZGVyOiAxcHg7XG4gICAgICAgICAgICAgICAgYm9yZGVyLXN0eWxlOiBzb2xpZDtcbiAgICAgICAgICAgICAgICBib3JkZXItY29sb3I6IGJsYWNrO1xuXG4gICAgICAgICAgICAgICAgJi5SRUQuYW5pbWF0ZSB7XG4gICAgICAgICAgICAgICAgICAgIC8vIGJhY2tncm91bmQ6IHJlZDtcbiAgICAgICAgICAgICAgICAgICAgLy8gQW5pbWF0ZSBhIHJlZCBjcm9zcyB3aXRoIHN2ZyBhbmQgY3NzXG4gICAgICAgICAgICAgICAgICAgIC8vIHNlZSBleHBsYW5hdGlvbiBodHRwczovL2Nzcy10cmlja3MuY29tL3N2Zy1saW5lLWFuaW1hdGlvbi13b3Jrcy9cbiAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgIEBrZXlmcmFtZXMgbGluZTEge1xuICAgICAgICAgICAgICAgICAgICAgICAgMCUge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0cm9rZS1kYXNob2Zmc2V0OiAkY2VsbC13aWR0aCAqIDI7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICA1MCUge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0cm9rZS1kYXNob2Zmc2V0OiAwO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgMTAwJSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgc3Ryb2tlLWRhc2hvZmZzZXQ6IDA7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgQGtleWZyYW1lcyBsaW5lMiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAwJSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgc3Ryb2tlLWRhc2hvZmZzZXQ6ICRjZWxsLXdpZHRoICogMjtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIDUwJSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgc3Ryb2tlLWRhc2hvZmZzZXQ6ICRjZWxsLXdpZHRoICogMjtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIDEwMCUge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0cm9rZS1kYXNob2Zmc2V0OiAwO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIC5saW5lIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIHN0cm9rZS1kYXNoYXJyYXk6ICRjZWxsLXdpZHRoICogMjtcbiAgICAgICAgICAgICAgICAgICAgICAgIHN0cm9rZS1kYXNob2Zmc2V0OiAwO1xuICAgICAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uLWR1cmF0aW9uOiAwLjNzO1xuICAgICAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogbGluZWFyO1xuICAgICAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uLWl0ZXJhdGlvbi1jb3VudDogMTtcbiAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAubGluZTEge1xuICAgICAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uLW5hbWU6IGxpbmUxO1xuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIC5saW5lMiB7XG4gICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb24tbmFtZTogbGluZTI7XG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAmLkdSRUVOLmFuaW1hdGUge1xuICAgICAgICAgICAgICAgICAgICAvLyBiYWNrZ3JvdW5kOiBncmVlbjsgXG4gICAgICAgICAgICAgICAgICAgIC8vIEFuaW1hdGUgYSBncmVlbiBjaXJjbGUgd2l0aCBzdmcgYW5kIGNzc1xuICAgICAgICAgICAgICAgICAgICAvLyBzZWUgZXhwbGFuYXRpb24gaHR0cHM6Ly9jc3MtdHJpY2tzLmNvbS9zdmctbGluZS1hbmltYXRpb24td29ya3MvXG4gICAgICAgICAgICAgICAgICAgIEBrZXlmcmFtZXMgY2lyY2xlIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIDAlIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHJva2UtZGFzaG9mZnNldDogJGNlbGwtd2lkdGggKiA1O1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgMTAwJSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgc3Ryb2tlLWRhc2hvZmZzZXQ6IDA7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgLmNpcmNsZSB7XG4gICAgICAgICAgICAgICAgICAgICAgICBzdHJva2UtZGFzaGFycmF5OiAkY2VsbC13aWR0aCAqIDU7XG4gICAgICAgICAgICAgICAgICAgICAgICBzdHJva2UtZGFzaG9mZnNldDogMDtcbiAgICAgICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbi1uYW1lOiBjaXJjbGU7XG4gICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb24tZHVyYXRpb246IDAuM3M7XG4gICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBsaW5lYXI7XG4gICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb24taXRlcmF0aW9uLWNvdW50OiAxO1xuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgLnByZWRpY3Rpb24ge1xuICAgICAgICAgICAgICAgICAgICB3aWR0aDogMDtcbiAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAwO1xuICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICB9XG59XG4iXX0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PlayGroundComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-play-ground',
+                templateUrl: './play-ground.component.html',
+                styleUrls: ['./play-ground.component.scss']
+            }]
+    }], function () { return [{ type: _services_training_service__WEBPACK_IMPORTED_MODULE_5__["TrainingService"] }]; }, { playGround: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], showPrediction: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }] }); })();
+
+
+/***/ }),
+
+/***/ "./src/app/play/play.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/play/play.component.ts ***!
+  \****************************************/
+/*! exports provided: PlayComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PlayComponent", function() { return PlayComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _model_human_player__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../model/human-player */ "./src/app/model/human-player.ts");
+/* harmony import */ var _model_play_ground__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../model/play-ground */ "./src/app/model/play-ground.ts");
+/* harmony import */ var _model_tic_tac_toe_game__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../model/tic-tac-toe-game */ "./src/app/model/tic-tac-toe-game.ts");
+/* harmony import */ var _model_player_color__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../model/player-color */ "./src/app/model/player-color.ts");
+/* harmony import */ var _model_random_player__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../model/random-player */ "./src/app/model/random-player.ts");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _model_minimax_player__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../model/minimax-player */ "./src/app/model/minimax-player.ts");
+/* harmony import */ var _model_tensorflow_player__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../model/tensorflow-player */ "./src/app/model/tensorflow-player.ts");
+/* harmony import */ var _services_training_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../services/training.service */ "./src/app/services/training.service.ts");
+/* harmony import */ var primeng_dropdown__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! primeng/dropdown */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-dropdown.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! primeng/button */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-button.js");
+/* harmony import */ var _play_ground_play_ground_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../play-ground/play-ground.component */ "./src/app/play-ground/play-ground.component.ts");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function PlayComponent_ng_container_15_Template(rf, ctx) { if (rf & 1) {
+    const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "button", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function PlayComponent_ng_container_15_Template_button_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r5); const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r4.startGame(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+} }
+function PlayComponent_ng_container_16_Template(rf, ctx) { if (rf & 1) {
+    const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "button", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function PlayComponent_ng_container_16_Template_button_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r7); const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r6.stopGame(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "button", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function PlayComponent_ng_container_16_Template_button_click_2_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r7); const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r8.restartGame(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+} }
+function PlayComponent_app_play_ground_17_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-play-ground", 11);
+} if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("playGround", ctx_r2.playGround)("showPrediction", ctx_r2.showPrediction);
+} }
+function PlayComponent_p_18_Template(rf, ctx) { if (rf & 1) {
+    const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "button", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function PlayComponent_p_18_Template_button_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r10); const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r9.revertLastMove(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+class PlayComponent {
+    constructor(trainingService) {
+        this.trainingService = trainingService;
+        this.availablePredictions = ['No Prediction', 'MiniMax', 'Tensorflow'].map(v => ({ label: v, value: v }));
+        this.player1 = _model_human_player__WEBPACK_IMPORTED_MODULE_1__["HumanPlayer"].factory;
+        this.player2 = _model_human_player__WEBPACK_IMPORTED_MODULE_1__["HumanPlayer"].factory;
+        this.gameIsRunning = false;
+    }
+    ngOnInit() {
+        // this.availablePlayers = [
+        //     { label: 'Human', value: 'human' },
+        //     { label: 'Robot - Random', value: 'robot-random' },
+        //     { label: 'Robot - Minimax', value: 'robot-minimax' },
+        //     { label: 'Robot - Ki - ???', value: 'robot-ki-??' },
+        // ];
+        this.availablePlayers = [];
+        this.availablePlayers.push(_model_human_player__WEBPACK_IMPORTED_MODULE_1__["HumanPlayer"].factory);
+        this.availablePlayers.push(_model_random_player__WEBPACK_IMPORTED_MODULE_5__["RandomPlayer"].factory);
+        this.availablePlayers.push(_model_minimax_player__WEBPACK_IMPORTED_MODULE_7__["MinimaxPlayer"].factory);
+        this.availablePlayers.push(_model_tensorflow_player__WEBPACK_IMPORTED_MODULE_8__["TensorflowPlayer"].createFactory(this.trainingService, 300));
+    }
+    restartGame() {
+        this.stopGame();
+        this.startGame();
+    }
+    stopGame() {
+        this.gameIsRunning = false;
+    }
+    startGame() {
+        const redStart = (Math.random() >= 0.5);
+        const game = new _model_tic_tac_toe_game__WEBPACK_IMPORTED_MODULE_3__["TicTacToeGame"]();
+        game.nextPlayerColor = redStart ? _model_player_color__WEBPACK_IMPORTED_MODULE_4__["PlayerColor"].RED : _model_player_color__WEBPACK_IMPORTED_MODULE_4__["PlayerColor"].GREEN;
+        const player1 = this.player1.createPlayer(game, game.nextPlayerColor);
+        const player2 = this.player2.createPlayer(game, _model_player_color__WEBPACK_IMPORTED_MODULE_4__["PlayerColorUtil"].opposite(game.nextPlayerColor));
+        this.playGround = new _model_play_ground__WEBPACK_IMPORTED_MODULE_2__["PlayGround"](game, player1, player2);
+        this.playGround.startGame();
+        this.gameIsRunning = true;
+    }
+    areBothPlayerHuman() {
+        return this.player1 === _model_human_player__WEBPACK_IMPORTED_MODULE_1__["HumanPlayer"].factory && this.player2 === _model_human_player__WEBPACK_IMPORTED_MODULE_1__["HumanPlayer"].factory;
+    }
+    revertLastMove() {
+        const wasFinished = this.playGround.game.isGameFinished();
+        const currentPlayer = this.playGround.getNextPlayer();
+        const history = this.playGround.game.history;
+        const lastGameSnapshot = lodash__WEBPACK_IMPORTED_MODULE_6__["last"](history);
+        const success = this.playGround.game.revertMove(lastGameSnapshot.lastPlayerColor, lastGameSnapshot.lastPosition.col, lastGameSnapshot.lastPosition.row);
+        if (success) {
+            if (currentPlayer instanceof _model_human_player__WEBPACK_IMPORTED_MODULE_1__["HumanPlayer"]) {
+                currentPlayer.cancleMove();
+            }
+            if (wasFinished) {
+                // restart movings until finished.
+                this.playGround.startGame();
+            }
+        }
+    }
+}
+PlayComponent.ɵfac = function PlayComponent_Factory(t) { return new (t || PlayComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_training_service__WEBPACK_IMPORTED_MODULE_9__["TrainingService"])); };
+PlayComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PlayComponent, selectors: [["app-play"]], decls: 19, vars: 13, consts: [[1, "play"], ["for", "player1"], ["inputId", "player1", "optionLabel", "name", 3, "options", "ngModel", "disabled", "ngModelChange"], ["for", "player2"], ["inputId", "player2", "optionLabel", "name", 3, "options", "ngModel", "disabled", "ngModelChange"], ["inputId", "showPrediction", 3, "options", "ngModel", "disabled", "ngModelChange"], [4, "ngIf"], [3, "playGround", "showPrediction", 4, "ngIf"], ["pButton", "", "type", "button", "label", "Start", 3, "click"], ["pButton", "", "type", "button", "label", "Stop", 3, "click"], ["pButton", "", "type", "button", "label", "Restart", 3, "click"], [3, "playGround", "showPrediction"], ["pButton", "", "type", "button", "label", "Revert Last Move", 3, "click"]], template: function PlayComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "label", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Player 1: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p-dropdown", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function PlayComponent_Template_p_dropdown_ngModelChange_4_listener($event) { return ctx.player1 = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "label", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Player 2: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "p-dropdown", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function PlayComponent_Template_p_dropdown_ngModelChange_8_listener($event) { return ctx.player2 = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "label", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Show Prediction: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "p-dropdown", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function PlayComponent_Template_p_dropdown_ngModelChange_12_listener($event) { return ctx.showPrediction = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, PlayComponent_ng_container_15_Template, 2, 0, "ng-container", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, PlayComponent_ng_container_16_Template, 3, 0, "ng-container", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](17, PlayComponent_app_play_ground_17_Template, 1, 2, "app-play-ground", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](18, PlayComponent_p_18_Template, 2, 0, "p", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("options", ctx.availablePlayers)("ngModel", ctx.player1)("disabled", ctx.gameIsRunning);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("options", ctx.availablePlayers)("ngModel", ctx.player2)("disabled", ctx.gameIsRunning);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("options", ctx.availablePredictions)("ngModel", ctx.showPrediction)("disabled", ctx.gameIsRunning);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.gameIsRunning);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.gameIsRunning);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.gameIsRunning);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.areBothPlayerHuman() && ctx.gameIsRunning);
+    } }, directives: [primeng_dropdown__WEBPACK_IMPORTED_MODULE_10__["Dropdown"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["NgModel"], _angular_common__WEBPACK_IMPORTED_MODULE_12__["NgIf"], primeng_button__WEBPACK_IMPORTED_MODULE_13__["ButtonDirective"], _play_ground_play_ground_component__WEBPACK_IMPORTED_MODULE_14__["PlayGroundComponent"]], styles: [".play[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  margin: 0px 4px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGxheS9wbGF5LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNJO0VBQ0ksZUFBQTtBQUFSIiwiZmlsZSI6InNyYy9hcHAvcGxheS9wbGF5LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnBsYXkge1xuICAgIGJ1dHRvbiB7XG4gICAgICAgIG1hcmdpbjogMHB4IDRweFxuICAgIH1cbn1cbiJdfQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PlayComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-play',
+                templateUrl: './play.component.html',
+                styleUrls: ['./play.component.scss']
+            }]
+    }], function () { return [{ type: _services_training_service__WEBPACK_IMPORTED_MODULE_9__["TrainingService"] }]; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/services/training.service.ts":
+/*!**********************************************!*\
+  !*** ./src/app/services/training.service.ts ***!
+  \**********************************************/
+/*! exports provided: TrainingService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TrainingService", function() { return TrainingService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @tensorflow/tfjs */ "./node_modules/@tensorflow/tfjs/dist/index.js");
+/* harmony import */ var _model_player_color__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../model/player-color */ "./src/app/model/player-color.ts");
+/* harmony import */ var _model_tic_tac_toe_game__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../model/tic-tac-toe-game */ "./src/app/model/tic-tac-toe-game.ts");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
+
+
+
+class TrainingService {
+    constructor() {
+        this.game = new _model_tic_tac_toe_game__WEBPACK_IMPORTED_MODULE_4__["TicTacToeGame"]();
+        this.splittedLayers = 3;
+        this.modelIsTrained = false;
+        this.model = this.createModel();
+    }
+    createModel() {
+        // the initial version is basically from:
+        // https://github.com/ZackAkil/deep-tic-tac-toe/blob/master/model/model.json
+        const model = _tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__["sequential"]();
+        model.add(_tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__["layers"].conv2d({
+            inputShape: [this.game.rows, this.game.cols, this.splittedLayers],
+            kernelSize: 1,
+            filters: 8,
+            activation: 'relu'
+        }));
+        model.add(_tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__["layers"].conv2d({ kernelSize: 3, filters: 8, activation: 'relu' }));
+        model.add(_tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__["layers"].flatten({}));
+        model.add(_tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__["layers"].dense({ units: 100, activation: 'relu' }));
+        model.add(_tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__["layers"].dropout({ rate: 0.1, trainable: true }));
+        model.add(_tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__["layers"].dense({ units: 100, activation: 'relu' }));
+        model.add(_tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__["layers"].dropout({ rate: 0.1, trainable: true }));
+        model.add(_tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__["layers"].dense({ units: 50, activation: 'relu' }));
+        model.add(_tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__["layers"].dense({ units: this.game.rows * this.game.cols, activation: 'sigmoid' }));
+        model.compile({ loss: 'binaryCrossentropy', optimizer: 'adam' });
+        return model;
+    }
+    isModelTrained() {
+        return this.modelIsTrained;
+    }
+    resetModel() {
+        this.model = this.createModel();
+        this.modelIsTrained = false;
+    }
+    trainModel(trainingsdata, testingdata, fitCallbacks, fitArgs) {
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            const [trainXs, trainYs] = this.prepareTrainingsData(trainingsdata);
+            const [testXs, testYs] = this.prepareTrainingsData(testingdata);
+            const history = yield this.model.fit(trainXs, trainYs, Object.assign(Object.assign({}, fitArgs), { validationData: [testXs, testYs], callbacks: fitCallbacks }));
+            this.modelIsTrained = true;
+            return history;
+        });
+    }
+    prepareTrainingsData(trainingsdata) {
+        return _tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__["tidy"](() => {
+            return [
+                _tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__["tensor"](trainingsdata.inputs.map(v => this.splitPlayerColorIntoSeparatLayers(v)), [trainingsdata.inputs.length, this.game.rows, this.game.cols, this.splittedLayers]),
+                _tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__["tensor"](trainingsdata.expectedResults, [trainingsdata.expectedResults.length, this.game.rows * this.game.cols])
+            ];
+        });
+    }
+    predictNextMove(playGround, playerColor) {
+        const input = this.prepareInput([this.normalizeInput(playGround, playerColor)]);
+        const prediction = this.model.predict(input);
+        return this.translateTensorflowPrediction(prediction);
+    }
+    prepareInput(playGround) {
+        return _tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__["tidy"](() => {
+            return _tensorflow_tfjs__WEBPACK_IMPORTED_MODULE_2__["tensor"](playGround, [1, this.game.rows, this.game.cols, this.splittedLayers]);
+        });
+    }
+    normalizeInput(playGround, playerColor) {
+        const normalizedColor = this.normalizeInputPlayerColor(playGround, playerColor);
+        const splitedPlayerColorIntoSeparatLayers = this.splitPlayerColorIntoSeparatLayers(normalizedColor);
+        return splitedPlayerColorIntoSeparatLayers;
+    }
+    splitPlayerColorIntoSeparatLayers(playGround) {
+        // the idea of multiple layers per player comes from:
+        // https://github.com/ZackAkil/deep-tic-tac-toe/blob/master/index.html#L91
+        return playGround.map(col => col.map(cell => {
+            // return [cell, 0];
+            if (cell === _model_player_color__WEBPACK_IMPORTED_MODULE_3__["PlayerColor"].RED) {
+                return [1, 0, 0];
+            }
+            else if (cell === _model_player_color__WEBPACK_IMPORTED_MODULE_3__["PlayerColor"].GREEN) {
+                return [0, 1, 0];
+            }
+            else {
+                // free cells
+                return [0, 0, 1];
+            }
+        }));
+    }
+    normalizeInputPlayerColor(playGround, playerColor) {
+        if (playerColor === _model_player_color__WEBPACK_IMPORTED_MODULE_3__["PlayerColor"].RED) {
+            // fine, thats what i want.
+            return playGround;
+        }
+        // invert player-Color:
+        return playGround.map(row => row.map(cell => _model_player_color__WEBPACK_IMPORTED_MODULE_3__["PlayerColorUtil"].opposite(cell)));
+    }
+    translateTensorflowPrediction(prediction) {
+        const scoresRaw = Array.from(prediction.dataSync());
+        // create scores from scoresRaw: single-Array to multi-array:
+        const scores = scoresRaw.reduce((rows, cell, index) => {
+            if (index % this.game.cols === 0) {
+                rows.push([lodash__WEBPACK_IMPORTED_MODULE_5__["round"](cell, 5)]);
+            }
+            else {
+                rows[rows.length - 1].push(lodash__WEBPACK_IMPORTED_MODULE_5__["round"](cell, 5));
+            }
+            return rows;
+        }, []);
+        let bestScore = 0;
+        let bestPosition;
+        scores.forEach((column, col) => {
+            column.forEach((cell, row) => {
+                if (cell > bestScore) {
+                    bestScore = cell;
+                    bestPosition = { col, row };
+                }
+            });
+        });
+        return { scores, bestScore, bestPosition };
+    }
+}
+TrainingService.ɵfac = function TrainingService_Factory(t) { return new (t || TrainingService)(); };
+TrainingService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({ token: TrainingService, factory: TrainingService.ɵfac, providedIn: 'root' });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](TrainingService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"],
+        args: [{
+                providedIn: 'root'
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/testing/testing-chart-bar-utils.ts":
+/*!****************************************************!*\
+  !*** ./src/app/testing/testing-chart-bar-utils.ts ***!
+  \****************************************************/
+/*! exports provided: TestingChartBarUtils */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TestingChartBarUtils", function() { return TestingChartBarUtils; });
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
+
+class TestingChartBarUtils {
+    static createInitialChartBarData() {
+        return {
+            labels: [],
+            datasets: [
+                {
+                    label: 'Red Wins',
+                    backgroundColor: '#f00',
+                    stack: 'Stack WINs',
+                    yAxisID: 'y-axis-Wins',
+                    data: []
+                },
+                {
+                    label: 'Green Wins',
+                    backgroundColor: '#0f0',
+                    stack: 'Stack WINs',
+                    yAxisID: 'y-axis-Wins',
+                    data: []
+                },
+                {
+                    label: 'DRAWs',
+                    backgroundColor: '#99f',
+                    stack: 'Stack WINs',
+                    yAxisID: 'y-axis-Wins',
+                    data: []
+                },
+                {
+                    label: 'Avg Success Moves',
+                    backgroundColor: '#00f',
+                    stack: 'Avg Success Moves',
+                    yAxisID: 'y-axis-Moves',
+                    data: [],
+                },
+                {
+                    label: 'Avg Failed Moves',
+                    backgroundColor: '#000',
+                    stack: 'Avg Failed Moves',
+                    yAxisID: 'y-axis-Moves',
+                    data: [],
+                },
+            ]
+        };
+    }
+    static createChartBarOptions(label) {
+        return {
+            responsive: true,
+            title: {
+                display: true,
+                text: label,
+            },
+            tooltips: {
+                mode: 'index',
+                intersect: false,
+            },
+            scales: {
+                xAxes: [
+                    {
+                        stacked: true,
+                    },
+                ],
+                yAxes: [
+                    {
+                        id: 'y-axis-Wins',
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Wins'
+                        },
+                        position: 'left',
+                        stacked: true,
+                    },
+                    {
+                        id: 'y-axis-Moves',
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Moves'
+                        },
+                        position: 'right',
+                        stacked: true,
+                        ticks: {
+                            max: 10,
+                        }
+                    },
+                ]
+            }
+        };
+    }
+    static addChartBarDataSet(data, label, statisticSummary) {
+        this.updateChartBarDataSet(data, label, data.datasets[0].data.length, statisticSummary);
+    }
+    static updateChartBarDataSet(data, label, index, statisticSummary) {
+        if (label) {
+            data.labels[index] = label;
+        }
+        else if (data.labels.length > 0) {
+            throw Error('Label is required');
+        }
+        data.datasets[this.dataSetIndex.RED_WINS].data[index] = statisticSummary.redWins;
+        data.datasets[this.dataSetIndex.GREEN_WINS].data[index] = statisticSummary.greenWins;
+        data.datasets[this.dataSetIndex.DRAWS].data[index] = statisticSummary.draws;
+        data.datasets[this.dataSetIndex.AVG_SUCCESS_MOVES].data[index] =
+            lodash__WEBPACK_IMPORTED_MODULE_0__["round"](statisticSummary.countSuccessMoves / statisticSummary.countGames, 5);
+        data.datasets[this.dataSetIndex.AVG_FAILED_MOVES].data[index] =
+            lodash__WEBPACK_IMPORTED_MODULE_0__["round"](statisticSummary.countFailedMoves / statisticSummary.countGames, 5);
+    }
+}
+TestingChartBarUtils.dataSetIndex = {
+    RED_WINS: 0,
+    GREEN_WINS: 1,
+    DRAWS: 2,
+    AVG_SUCCESS_MOVES: 3,
+    AVG_FAILED_MOVES: 4,
+};
+
+
+/***/ }),
+
+/***/ "./src/app/testing/testing.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/testing/testing.component.ts ***!
+  \**********************************************/
+/*! exports provided: TestingComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TestingComponent", function() { return TestingComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _model_random_player__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../model/random-player */ "./src/app/model/random-player.ts");
+/* harmony import */ var _model_minimax_player__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../model/minimax-player */ "./src/app/model/minimax-player.ts");
+/* harmony import */ var _model_statistic_summary__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../model/statistic-summary */ "./src/app/model/statistic-summary.ts");
+/* harmony import */ var _model_play_ground__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../model/play-ground */ "./src/app/model/play-ground.ts");
+/* harmony import */ var _model_tic_tac_toe_game__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../model/tic-tac-toe-game */ "./src/app/model/tic-tac-toe-game.ts");
+/* harmony import */ var _model_player_color__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../model/player-color */ "./src/app/model/player-color.ts");
+/* harmony import */ var _testing_chart_bar_utils__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./testing-chart-bar-utils */ "./src/app/testing/testing-chart-bar-utils.ts");
+/* harmony import */ var _model_tensorflow_player__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../model/tensorflow-player */ "./src/app/model/tensorflow-player.ts");
+/* harmony import */ var _services_training_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../services/training.service */ "./src/app/services/training.service.ts");
+/* harmony import */ var primeng_spinner__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! primeng/spinner */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-spinner.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var primeng_dropdown__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! primeng/dropdown */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-dropdown.js");
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! primeng/chart */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-chart.js");
+/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! primeng/button */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-button.js");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function TestingComponent_ng_container_20_Template(rf, ctx) { if (rf & 1) {
+    const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "button", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function TestingComponent_ng_container_20_Template_button_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r3); const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r2.startTesting(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
+} }
+function TestingComponent_ng_container_21_Template(rf, ctx) { if (rf & 1) {
+    const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "button", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function TestingComponent_ng_container_21_Template_button_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r5); const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r4.stopTesting(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
+} }
+class TestingComponent {
+    constructor(trainingService) {
+        this.trainingService = trainingService;
+        this.testRuns = 100;
+        this.currentRunInfo = '';
+        this.testingIsRunning = false;
+    }
+    ngOnInit() {
+        this.availablePlayers = [];
+        this.availablePlayers.push(_model_random_player__WEBPACK_IMPORTED_MODULE_2__["RandomPlayer"].createFactory(0));
+        this.availablePlayers.push(_model_minimax_player__WEBPACK_IMPORTED_MODULE_3__["MinimaxPlayer"].createFactory('Robot-Minimax core-logic', 0, { withDepthAdjustment: false, withDrawAdjustment: false }));
+        this.availablePlayers.push(_model_minimax_player__WEBPACK_IMPORTED_MODULE_3__["MinimaxPlayer"].createFactory('Robot-Minimax with depth Adjustment ', 0, { withDepthAdjustment: true, withDrawAdjustment: false }));
+        this.availablePlayers.push(_model_minimax_player__WEBPACK_IMPORTED_MODULE_3__["MinimaxPlayer"].createFactory('Robot-Minimax with DRAW Adjustment', 0, { withDepthAdjustment: false, withDrawAdjustment: true }));
+        this.availablePlayers.push(_model_minimax_player__WEBPACK_IMPORTED_MODULE_3__["MinimaxPlayer"].createFactory('Robot-Minimax Perfect', 0, { withDepthAdjustment: true, withDrawAdjustment: true }));
+        this.availablePlayers.push(_model_tensorflow_player__WEBPACK_IMPORTED_MODULE_9__["TensorflowPlayer"].createFactory(this.trainingService, 0));
+        this.player1 = this.availablePlayers[0];
+        this.player2 = this.availablePlayers[4];
+        this.testResultOptions = _testing_chart_bar_utils__WEBPACK_IMPORTED_MODULE_8__["TestingChartBarUtils"].createChartBarOptions('Last Test-Run');
+        this.storedData = _testing_chart_bar_utils__WEBPACK_IMPORTED_MODULE_8__["TestingChartBarUtils"].createInitialChartBarData();
+        _testing_chart_bar_utils__WEBPACK_IMPORTED_MODULE_8__["TestingChartBarUtils"].addChartBarDataSet(this.storedData, 'Random vs Random', { redWins: 580, greenWins: 280, draws: 140, countGames: 1000, countFailedMoves: 0, countSuccessMoves: 7604 });
+        _testing_chart_bar_utils__WEBPACK_IMPORTED_MODULE_8__["TestingChartBarUtils"].addChartBarDataSet(this.storedData, ['Random vs Minimax', '(core-logic)'], { redWins: 0, greenWins: 783, draws: 217, countGames: 1000, countFailedMoves: 0, countSuccessMoves: 7395 });
+        _testing_chart_bar_utils__WEBPACK_IMPORTED_MODULE_8__["TestingChartBarUtils"].addChartBarDataSet(this.storedData, ['Random vs Minimax', '(with depth Adjustment)'], { redWins: 0, greenWins: 796, draws: 204, countGames: 1000, countFailedMoves: 0, countSuccessMoves: 7040 });
+        _testing_chart_bar_utils__WEBPACK_IMPORTED_MODULE_8__["TestingChartBarUtils"].addChartBarDataSet(this.storedData, ['Random vs Minimax', '(with DRAW Adjustment)'], { redWins: 0, greenWins: 922, draws: 78, countGames: 1000, countFailedMoves: 0, countSuccessMoves: 7078 });
+        _testing_chart_bar_utils__WEBPACK_IMPORTED_MODULE_8__["TestingChartBarUtils"].addChartBarDataSet(this.storedData, 'Random vs Minimax', { redWins: 0, greenWins: 918, draws: 82, countGames: 1000, countFailedMoves: 0, countSuccessMoves: 6455 });
+        _testing_chart_bar_utils__WEBPACK_IMPORTED_MODULE_8__["TestingChartBarUtils"].addChartBarDataSet(this.storedData, ['Minimax vs Random', '(Minimax first)'], { redWins: 995, greenWins: 0, draws: 5, countGames: 1000, countFailedMoves: 0, countSuccessMoves: 5344 });
+        _testing_chart_bar_utils__WEBPACK_IMPORTED_MODULE_8__["TestingChartBarUtils"].addChartBarDataSet(this.storedData, 'Minimax vs Minimax', { redWins: 0, greenWins: 0, draws: 1000, countGames: 1000, countFailedMoves: 0, countSuccessMoves: 9000 });
+        this.storedOptions = _testing_chart_bar_utils__WEBPACK_IMPORTED_MODULE_8__["TestingChartBarUtils"].createChartBarOptions('Stored Test-Runs');
+        this.storedOptions.onClick = (mouseEvent, selectedDataSets) => {
+            // TODO: Implement 'REMOVE', 'Edit Label'
+            console.log('selectedDataSets', selectedDataSets);
+        };
+        this.storedOptions.scales.xAxes[0].scaleLabel = {
+            display: true,
+            labelString: 'Scenarios'
+        };
+    }
+    stopTesting() {
+        this.testingIsRunning = false;
+    }
+    startTesting() {
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            this.testingIsRunning = true;
+            this.testResultData = _testing_chart_bar_utils__WEBPACK_IMPORTED_MODULE_8__["TestingChartBarUtils"].createInitialChartBarData();
+            const summary = new _model_statistic_summary__WEBPACK_IMPORTED_MODULE_4__["StatisticSummary"]();
+            const updateIntervalMilis = 10000;
+            let nextGraphUpdate = new Date().getTime() + updateIntervalMilis;
+            for (let run = 0; run < this.testRuns && this.testingIsRunning; run++) {
+                this.currentRunInfo = `${run + 1}/${this.testRuns}`;
+                const game = new _model_tic_tac_toe_game__WEBPACK_IMPORTED_MODULE_6__["TicTacToeGame"]();
+                const player1 = this.player1.createPlayer(game, _model_player_color__WEBPACK_IMPORTED_MODULE_7__["PlayerColor"].RED);
+                const player2 = this.player2.createPlayer(game, _model_player_color__WEBPACK_IMPORTED_MODULE_7__["PlayerColor"].GREEN);
+                const playGround = new _model_play_ground__WEBPACK_IMPORTED_MODULE_5__["PlayGround"](game, player1, player2);
+                yield playGround.startGame();
+                const winner = playGround.game.findWinner();
+                summary.draws += (winner === undefined) ? 1 : 0;
+                summary.redWins += (winner === _model_player_color__WEBPACK_IMPORTED_MODULE_7__["PlayerColor"].RED) ? 1 : 0;
+                summary.greenWins += (winner === _model_player_color__WEBPACK_IMPORTED_MODULE_7__["PlayerColor"].GREEN) ? 1 : 0;
+                summary.countGames += 1;
+                summary.countSuccessMoves += playGround.game.movesSuccessful;
+                summary.countFailedMoves += playGround.game.movesOverall - playGround.game.movesSuccessful;
+                if (new Date().getTime() > nextGraphUpdate) {
+                    // console.log('Chart Update');
+                    _testing_chart_bar_utils__WEBPACK_IMPORTED_MODULE_8__["TestingChartBarUtils"].updateChartBarDataSet(this.testResultData, null, 0, summary);
+                    this.testResultData = Object.assign({}, this.testResultData); // trigger chart update
+                    nextGraphUpdate = new Date().getTime() + updateIntervalMilis;
+                }
+            }
+            console.log('summary', JSON.stringify(summary));
+            _testing_chart_bar_utils__WEBPACK_IMPORTED_MODULE_8__["TestingChartBarUtils"].updateChartBarDataSet(this.testResultData, null, 0, summary);
+            this.testResultData = Object.assign({}, this.testResultData); // trigger chart update
+            this.testingIsRunning = false;
+        });
+    }
+}
+TestingComponent.ɵfac = function TestingComponent_Factory(t) { return new (t || TestingComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_services_training_service__WEBPACK_IMPORTED_MODULE_10__["TrainingService"])); };
+TestingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: TestingComponent, selectors: [["app-testing"]], decls: 29, vars: 18, consts: [[1, "testing", "p-grid"], [1, "input", "p-col-12", "p-md-6"], [1, "p-grid", "ui-fluid"], [1, "p-col-3"], ["for", "testRuns"], [1, "p-col-9"], ["inputId", "testRuns", "ngClass", "input", 3, "ngModel", "min", "max", "step", "disabled", "ngModelChange"], ["for", "player1"], ["inputId", "player1", "optionLabel", "name", 3, "options", "ngModel", "disabled", "ngModelChange"], ["for", "player2"], ["inputId", "player2", "optionLabel", "name", 3, "options", "ngModel", "disabled", "ngModelChange"], [1, "p-grid"], [1, "p-col-12"], [4, "ngIf"], [1, "p-col-12", "p-md-6"], ["type", "bar", 3, "data", "options"], ["pButton", "", "type", "button", "label", "Start", 3, "click"], ["pButton", "", "type", "button", "label", "Stop", 3, "click"]], template: function TestingComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "label", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, "Test Runs: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "p-spinner", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function TestingComponent_Template_p_spinner_ngModelChange_7_listener($event) { return ctx.testRuns = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "label", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, "Player 1: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "p-dropdown", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function TestingComponent_Template_p_dropdown_ngModelChange_12_listener($event) { return ctx.player1 = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](13, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "label", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15, "Player 2: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "p-dropdown", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function TestingComponent_Template_p_dropdown_ngModelChange_17_listener($event) { return ctx.player2 = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](18, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](19, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](20, TestingComponent_ng_container_20_Template, 2, 0, "ng-container", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](21, TestingComponent_ng_container_21_Template, 2, 0, "ng-container", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](22, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](26, "p-chart", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](27, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](28, "p-chart", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngModel", ctx.testRuns)("min", 0)("max", 10000)("step", 10)("disabled", ctx.testingIsRunning);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("options", ctx.availablePlayers)("ngModel", ctx.player1)("disabled", ctx.testingIsRunning);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("options", ctx.availablePlayers)("ngModel", ctx.player2)("disabled", ctx.testingIsRunning);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.testingIsRunning);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.testingIsRunning);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", ctx.currentRunInfo, " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("data", ctx.testResultData)("options", ctx.testResultOptions);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("data", ctx.storedData)("options", ctx.storedOptions);
+    } }, directives: [primeng_spinner__WEBPACK_IMPORTED_MODULE_11__["Spinner"], _angular_common__WEBPACK_IMPORTED_MODULE_12__["NgClass"], _angular_forms__WEBPACK_IMPORTED_MODULE_13__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_13__["NgModel"], primeng_dropdown__WEBPACK_IMPORTED_MODULE_14__["Dropdown"], _angular_common__WEBPACK_IMPORTED_MODULE_12__["NgIf"], primeng_chart__WEBPACK_IMPORTED_MODULE_15__["UIChart"], primeng_button__WEBPACK_IMPORTED_MODULE_16__["ButtonDirective"]], styles: [".testing[_ngcontent-%COMP%]   .input[_ngcontent-%COMP%]   .p-grid[_ngcontent-%COMP%] {\n  margin-top: 8px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdGVzdGluZy90ZXN0aW5nLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVRO0VBQ0ksZUFBQTtBQURaIiwiZmlsZSI6InNyYy9hcHAvdGVzdGluZy90ZXN0aW5nLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRlc3Rpbmcge1xuICAgIC5pbnB1dCB7XG4gICAgICAgIC5wLWdyaWQge1xuICAgICAgICAgICAgbWFyZ2luLXRvcDogOHB4O1xuICAgICAgICB9XG4gICAgfVxufSJdfQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](TestingComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
+        args: [{
+                selector: 'app-testing',
+                templateUrl: './testing.component.html',
+                styleUrls: ['./testing.component.scss']
+            }]
+    }], function () { return [{ type: _services_training_service__WEBPACK_IMPORTED_MODULE_10__["TrainingService"] }]; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/training/training.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/training/training.component.ts ***!
+  \************************************************/
+/*! exports provided: TrainingComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TrainingComponent", function() { return TrainingComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _model_statistic_summary__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../model/statistic-summary */ "./src/app/model/statistic-summary.ts");
+/* harmony import */ var _model_tic_tac_toe_game__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../model/tic-tac-toe-game */ "./src/app/model/tic-tac-toe-game.ts");
+/* harmony import */ var _model_player_color__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../model/player-color */ "./src/app/model/player-color.ts");
+/* harmony import */ var _model_play_ground__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../model/play-ground */ "./src/app/model/play-ground.ts");
+/* harmony import */ var _model_minimax_player__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../model/minimax-player */ "./src/app/model/minimax-player.ts");
+/* harmony import */ var _model_random_player__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../model/random-player */ "./src/app/model/random-player.ts");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _tensorflow_tfjs_vis__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @tensorflow/tfjs-vis */ "./node_modules/@tensorflow/tfjs-vis/dist/index.js");
+/* harmony import */ var _tensorflow_tfjs_vis__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_tensorflow_tfjs_vis__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _services_training_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../services/training.service */ "./src/app/services/training.service.ts");
+/* harmony import */ var primeng_spinner__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! primeng/spinner */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-spinner.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var primeng_inputnumber__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! primeng/inputnumber */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-inputnumber.js");
+/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! primeng/button */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-button.js");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function TrainingComponent_p_7_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r0.gamesGenerationInfo);
+} }
+function TrainingComponent_ng_container_9_Template(rf, ctx) { if (rf & 1) {
+    const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "button", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function TrainingComponent_ng_container_9_Template_button_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r7); const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r6.generateGames(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
+} }
+function TrainingComponent_ng_container_10_Template(rf, ctx) { if (rf & 1) {
+    const _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "button", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function TrainingComponent_ng_container_10_Template_button_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r9); const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r8.stopGenerateGames(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
+} }
+function TrainingComponent_p_11_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("", ctx_r3.games.length, " Games prepared.");
+} }
+function TrainingComponent_ul_20_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "ul");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("", ctx_r4.trainingData.inputs.length, " Training Sets");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("", ctx_r4.testingData.inputs.length, " Testing Sets");
+} }
+function TrainingComponent_p_23_Template(rf, ctx) { if (rf & 1) {
+    const _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "button", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function TrainingComponent_p_23_Template_button_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r11); const ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r10.visor.open(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} }
+class TrainingComponent {
+    constructor(trainingService) {
+        this.trainingService = trainingService;
+        // Step 1 generate Games:
+        this.gamesGenerationInfo = '';
+        this.gamesToGenerate = 100;
+        this.gamesAreGenerating = false;
+        this.games = [];
+        // Step 2 collect trainingsData:
+        this.trainingVsTestingRatio = 90;
+    }
+    ngOnInit() {
+        this.visor = _tensorflow_tfjs_vis__WEBPACK_IMPORTED_MODULE_9__["visor"]();
+    }
+    generateGames() {
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            this.gamesAreGenerating = true;
+            const summary = new _model_statistic_summary__WEBPACK_IMPORTED_MODULE_2__["StatisticSummary"]();
+            for (let run = 0; run < this.gamesToGenerate && this.gamesAreGenerating; run++) {
+                const minimaxPlayerFactory = _model_minimax_player__WEBPACK_IMPORTED_MODULE_6__["MinimaxPlayer"].createFactory('Robot-Minimax', 0);
+                const randomPlayerFactory = _model_random_player__WEBPACK_IMPORTED_MODULE_7__["RandomPlayer"].createFactory(0);
+                this.gamesGenerationInfo = `${run + 1}/${this.gamesToGenerate}`;
+                // await new Promise( resolve => setTimeout(resolve, 1) );
+                // minimax always start on the left , top corner, so we need a little less examples.
+                const minimaxStart = (Math.random() < 0.1);
+                const game = new _model_tic_tac_toe_game__WEBPACK_IMPORTED_MODULE_3__["TicTacToeGame"]();
+                // for simplification Minimax-Player is always played as red.
+                const minimaxPlayer = minimaxPlayerFactory.createPlayer(game, _model_player_color__WEBPACK_IMPORTED_MODULE_4__["PlayerColor"].RED);
+                const randomPlayer = randomPlayerFactory.createPlayer(game, _model_player_color__WEBPACK_IMPORTED_MODULE_4__["PlayerColor"].GREEN);
+                const player1 = minimaxStart ? minimaxPlayer : randomPlayer;
+                const player2 = minimaxStart ? randomPlayer : minimaxPlayer;
+                game.nextPlayerColor = player1.playerColor;
+                const playGround = new _model_play_ground__WEBPACK_IMPORTED_MODULE_5__["PlayGround"](game, player1, player2);
+                yield playGround.startGame();
+                const winner = playGround.game.findWinner();
+                summary.draws += (winner === undefined) ? 1 : 0;
+                summary.redWins += (winner === _model_player_color__WEBPACK_IMPORTED_MODULE_4__["PlayerColor"].RED) ? 1 : 0;
+                summary.greenWins += (winner === _model_player_color__WEBPACK_IMPORTED_MODULE_4__["PlayerColor"].GREEN) ? 1 : 0;
+                summary.countGames += 1;
+                summary.countSuccessMoves += playGround.game.movesSuccessful;
+                summary.countFailedMoves += playGround.game.movesOverall - playGround.game.movesSuccessful;
+                this.games.push(playGround.game);
+            }
+            console.log('summary', JSON.stringify(summary));
+            this.gamesAreGenerating = false;
+        });
+    }
+    stopGenerateGames() {
+        this.gamesAreGenerating = false;
+    }
+    collectTrainingsData() {
+        // for simplification Minimax-Player is always played as red.
+        const minimaxSteps = [].concat(...this.games.map(g => g.history))
+            .filter(history => history.lastPlayerColor === _model_player_color__WEBPACK_IMPORTED_MODULE_4__["PlayerColor"].RED);
+        this.trainingData = { inputs: [], expectedResults: [] };
+        this.testingData = { inputs: [], expectedResults: [] };
+        const allTrainingDataItems = [];
+        minimaxSteps.forEach(minimaxStep => {
+            const playGround = lodash__WEBPACK_IMPORTED_MODULE_8__["cloneDeep"](minimaxStep.playGround);
+            // revert last move
+            playGround[minimaxStep.lastPosition.col][minimaxStep.lastPosition.row] = _model_player_color__WEBPACK_IMPORTED_MODULE_4__["PlayerColor"].FREE;
+            // create empty playGround with zeros and set expected field to one:
+            const expectedResult = playGround.map((row) => row.map(() => 0));
+            expectedResult[minimaxStep.lastPosition.col][minimaxStep.lastPosition.row] = 1;
+            allTrainingDataItems.push({
+                input: playGround,
+                expectedResult: lodash__WEBPACK_IMPORTED_MODULE_8__["flatten"](expectedResult),
+            });
+        });
+        // collect only unique data (I expect 382 unique cases at most):
+        const uniqueTrainingDataItemsKeys = [];
+        const uniqueTrainingDataItems = [];
+        allTrainingDataItems.forEach(trainingDataItem => {
+            const key = lodash__WEBPACK_IMPORTED_MODULE_8__["flatten"](trainingDataItem.input).toString();
+            if (uniqueTrainingDataItemsKeys.includes(key)) {
+                // already processed
+                return;
+            }
+            uniqueTrainingDataItemsKeys.push(key);
+            uniqueTrainingDataItems.push(trainingDataItem);
+        });
+        console.log('allTrainingDataItems', allTrainingDataItems.length);
+        console.log('uniqueTrainingDataItems', uniqueTrainingDataItems.length);
+        // split training and testing data
+        uniqueTrainingDataItems.forEach((trainingDataItem) => {
+            const usedForTraining = Math.random() < (this.trainingVsTestingRatio / 100);
+            if (usedForTraining) {
+                this.trainingData.inputs.push(trainingDataItem.input);
+                this.trainingData.expectedResults.push(trainingDataItem.expectedResult);
+            }
+            else {
+                this.testingData.inputs.push(trainingDataItem.input);
+                this.testingData.expectedResults.push(trainingDataItem.expectedResult);
+            }
+        });
+    }
+    startTraining() {
+        // for Tensorflow Visor: see https://storage.googleapis.com/tfjs-vis/mnist/dist/index.html
+        // const surface = this.visor.surface({ name: 'TEst', styles: { height: '500px' }, tab: "Test" });
+        const metrics = ['loss', 'val_loss', 'acc', 'val_acc'];
+        const container = {
+            name: 'show.fitCallbacks',
+            tab: 'Training',
+            styles: {
+                height: '600px'
+            }
+        };
+        const callbacks = _tensorflow_tfjs_vis__WEBPACK_IMPORTED_MODULE_9__["show"].fitCallbacks(container, metrics);
+        this.trainingService.trainModel(this.trainingData, this.testingData, callbacks, {
+            batchSize: 100,
+            epochs: 100,
+            shuffle: true,
+        });
+    }
+}
+TrainingComponent.ɵfac = function TrainingComponent_Factory(t) { return new (t || TrainingComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_services_training_service__WEBPACK_IMPORTED_MODULE_10__["TrainingService"])); };
+TrainingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: TrainingComponent, selectors: [["app-training"]], decls: 26, vars: 12, consts: [["inputId", "gamesToGenerate", "ngClass", "input", 3, "ngModel", "min", "max", "step", "disabled", "ngModelChange"], [4, "ngIf"], ["inputId", "trainingVsTestingRatio", "suffix", "%", "prefix", "~", 3, "ngModel", "ngModelChange"], ["pButton", "", "type", "button", "label", "Collect Trainings Data", 3, "click"], ["pButton", "", "type", "button", "label", "Start training", 3, "click"], ["pButton", "", "type", "button", "label", "Generate", 3, "click"], ["pButton", "", "type", "button", "label", "Stop Generating", 3, "click"], ["pButton", "", "type", "button", "label", "Open Tensorflow Visor", 3, "click"]], template: function TrainingComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, "1. generate games");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, "This will generate multiple games between MinMax-Player (perfect moves) and Random-Player (get most branches).");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p-spinner", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function TrainingComponent_Template_p_spinner_ngModelChange_5_listener($event) { return ctx.gamesToGenerate = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6, " Games\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](7, TrainingComponent_p_7_Template, 2, 1, "p", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, TrainingComponent_ng_container_9_Template, 2, 0, "ng-container", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](10, TrainingComponent_ng_container_10_Template, 2, 0, "ng-container", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, TrainingComponent_p_11_Template, 2, 1, "p", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13, "3. collect trainings and testing data");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15, "Collect all moves of the minimax-player and use it as training and testing data.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "p-inputNumber", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function TrainingComponent_Template_p_inputNumber_ngModelChange_17_listener($event) { return ctx.trainingVsTestingRatio = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](18, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](19, "button", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function TrainingComponent_Template_button_click_19_listener() { return ctx.collectTrainingsData(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](20, TrainingComponent_ul_20_Template, 5, 2, "ul", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](21, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](22, "2. train neural net");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](23, TrainingComponent_p_23_Template, 2, 0, "p", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](24, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "button", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function TrainingComponent_Template_button_click_25_listener() { return ctx.startTraining(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngModel", ctx.gamesToGenerate)("min", 0)("max", 10000)("step", 10)("disabled", ctx.gamesAreGenerating);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.gamesAreGenerating);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.gamesAreGenerating);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.gamesAreGenerating);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.gamesAreGenerating && (ctx.games == null ? null : ctx.games.length) > 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngModel", ctx.trainingVsTestingRatio);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.trainingData && ctx.testingData);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.visor.isOpen());
+    } }, directives: [primeng_spinner__WEBPACK_IMPORTED_MODULE_11__["Spinner"], _angular_common__WEBPACK_IMPORTED_MODULE_12__["NgClass"], _angular_forms__WEBPACK_IMPORTED_MODULE_13__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_13__["NgModel"], _angular_common__WEBPACK_IMPORTED_MODULE_12__["NgIf"], primeng_inputnumber__WEBPACK_IMPORTED_MODULE_14__["InputNumber"], primeng_button__WEBPACK_IMPORTED_MODULE_15__["ButtonDirective"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3RyYWluaW5nL3RyYWluaW5nLmNvbXBvbmVudC5zY3NzIn0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](TrainingComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
+        args: [{
+                selector: 'app-training',
+                templateUrl: './training.component.html',
+                styleUrls: ['./training.component.scss']
+            }]
+    }], function () { return [{ type: _services_training_service__WEBPACK_IMPORTED_MODULE_10__["TrainingService"] }]; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/environments/environment.ts":
+/*!*****************************************!*\
+  !*** ./src/environments/environment.ts ***!
+  \*****************************************/
+/*! exports provided: environment */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+const environment = {
+    production: false
+};
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+/***/ }),
+
+/***/ "./src/main.ts":
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
+
+
+
+
+if (_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].production) {
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
+}
+_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
+    .catch(err => console.error(err));
+
+
+/***/ }),
+
+/***/ 0:
+/*!**********************************************************************************************************!*\
+  !*** multi (webpack)-dev-server/client?http://0.0.0.0:0/sockjs-node&sockPath=/sockjs-node ./src/main.ts ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\Admin\Desktop\ai-tic-tac-toe-minimax-master\node_modules\webpack-dev-server\client\index.js?http://0.0.0.0:0/sockjs-node&sockPath=/sockjs-node */"./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:0/sockjs-node&sockPath=/sockjs-node");
+module.exports = __webpack_require__(/*! C:\Users\Admin\Desktop\ai-tic-tac-toe-minimax-master\src\main.ts */"./src/main.ts");
+
+
+/***/ }),
+
+/***/ 1:
+/*!****************************!*\
+  !*** node-fetch (ignored) ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 2:
+/*!**********************!*\
+  !*** util (ignored) ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 3:
+/*!************************!*\
+  !*** crypto (ignored) ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 4:
+/*!********************************!*\
+  !*** string_decoder (ignored) ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 5:
+/*!********************!*\
+  !*** fs (ignored) ***!
+  \********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ })
+
+},[[0,"runtime","vendor"]]]);
+//# sourceMappingURL=main.js.map
