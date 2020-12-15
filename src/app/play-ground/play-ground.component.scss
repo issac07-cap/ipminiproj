@@ -1,0 +1,93 @@
+$cell-width: 100px;
+
+.playGround {
+    .game-container {
+        display: block;
+        width: $cell-width*3;
+        border: 1px;
+        border-style: solid;
+        border-color: black;
+
+        .row {
+            display: flex;
+
+            .cell {
+                width: $cell-width;
+                height: $cell-width;
+                border: 1px;
+                border-style: solid;
+                border-color: black;
+
+                &.RED.animate {
+                    // background: red;
+                    // Animate a red cross with svg and css
+                    // see explanation https://css-tricks.com/svg-line-animation-works/
+                    
+                    @keyframes line1 {
+                        0% {
+                            stroke-dashoffset: $cell-width * 2;
+                        }
+                        50% {
+                            stroke-dashoffset: 0;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+                    @keyframes line2 {
+                        0% {
+                            stroke-dashoffset: $cell-width * 2;
+                        }
+                        50% {
+                            stroke-dashoffset: $cell-width * 2;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+                    .line {
+                        stroke-dasharray: $cell-width * 2;
+                        stroke-dashoffset: 0;
+                        animation-duration: 0.3s;
+                        animation-timing-function: linear;
+                        animation-iteration-count: 1;
+                    }
+                    .line1 {
+                        animation-name: line1;
+                    }
+                    .line2 {
+                        animation-name: line2;
+                    }
+                }
+
+                &.GREEN.animate {
+                    // background: green; 
+                    // Animate a green circle with svg and css
+                    // see explanation https://css-tricks.com/svg-line-animation-works/
+                    @keyframes circle {
+                        0% {
+                            stroke-dashoffset: $cell-width * 5;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+                    .circle {
+                        stroke-dasharray: $cell-width * 5;
+                        stroke-dashoffset: 0;
+                        animation-name: circle;
+                        animation-duration: 0.3s;
+                        animation-timing-function: linear;
+                        animation-iteration-count: 1;
+                    }
+                }
+
+                .prediction {
+                    width: 0;
+                    height: 0;
+                    overflow: visible;
+                }
+            }
+        }
+    }
+}
